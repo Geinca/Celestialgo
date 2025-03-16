@@ -4418,21 +4418,6 @@ p {
 }
 
 /* boxs of services */
-.area-of-speacialization {
-  background: linear-gradient(
-    180deg,
-    #c1f2fb 0%,
-    rgba(255, 244, 244, 0.51) 100%
-  );
-  margin-bottom: 30px;
-}
-.specialization-heading {
-  font-family: "Righteous", sans-serif;
-  font-size: 38px;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 20px;
-}
 .area-sub-head {
   font-family: "Righteous";
   font-size: 22px;
@@ -4464,25 +4449,9 @@ p {
   justify-content: center;
   gap: 2vmax;
 }
-
-.serv_card {
-  width: 46%;
-  padding: 2vmax 2vmax;
-  display: flex;
-  flex-direction: column;
-  gap: 2vmax;
-  align-items: center;
-}
-
 .serv_card_logo {
   height: 25%;
 }
-.serv_card_h {
-  font-family: "Righteous", sans-serif;
-  font-size: 22px;
-  font-weight: 600;
-}
-
 .serv_card_p {
   font-family: " Poppins", sans-serif;
   font-size: 16px;
@@ -4523,9 +4492,6 @@ p {
     width: 100%;
     font-size: 14px;
     text-align: center;
-  }
-  .specialization-heading {
-    font-size: 20px;
   }
   .area-sub-head {
     text-align: center;
@@ -5295,6 +5261,65 @@ p{
 }
 .content-writing-industries .box-top .industry-single-box .img-wrapper{
   height: 100%;
+}
+
+/* best content writing agency */
+.best-agency{
+  padding: 20px 0;
+}
+.best-agency h2{
+  font-family: "Poppins",sans-serif;
+  font-size:22px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 15px;
+}
+.best-agency p{
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* content writing area of specialization */
+.area-of-speacialization {
+  background: linear-gradient(
+    180deg,
+    #c1f2fb 0%,
+    rgba(255, 244, 244, 0.51) 100%
+  );
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+.specialization-heading {
+  font-family: "Righteous", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(55, 52, 158, 1);
+}
+.serv_card {
+  width: 46%;
+  padding: 2vmax 2vmax;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.serv_card_h {
+  font-family: "Righteous", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* our goal */
+.our-goal{
+  padding: 10px 7% 50px 7%;
+}
+.our-goal p{
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
 }
 
 /* 8. consulting and advisory */
