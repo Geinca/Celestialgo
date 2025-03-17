@@ -28,14 +28,11 @@ a {
 }
 /*header*/
 .header {
-  /* position: fixed;  */
   width: 100%;
   left: 0;
   top: 0;
   z-index: 99;
   background: linear-gradient(100deg, #15338e, #0fa3ad, #1d4e55);
-
-  /* padding: 15px; */
 }
 .header-main {
   /* background-color: #ffffff; */
@@ -206,19 +203,11 @@ a {
   transition: all 0.3s ease;
 }
 
-/*home section*/
-.home-section {
-  width: 100%;
-  display: block;
-  min-height: 100vh;
-
-  background-position: center top;
-  background-size: cover;
-}
-
-/* responsive */
-
+/* responsive header */
 @media (max-width: 991px) {
+  .header-main{
+    justify-content: space-between;
+  }
   .menu-item {
     right: 0%;
   }
@@ -305,15 +294,18 @@ a {
   }
 }
 
+
+/*home section*/
+.home-section {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+  background-position: center top;
+  background-size: cover;
+}
+
 /* landing page */
 .home-main {
-  /* background: linear-gradient(
-    114.04deg,
-    #01191c -16.48%,
-    #15338e 25.3%,
-    #0fa3ad 83.31%,
-    #1d4e55 139.43%
-  ); */
   background: linear-gradient(
     106.46deg,
     #100750 7.47%,
@@ -5062,6 +5054,186 @@ p{
     #3fc299 100%
   );
 }
+.digital-main .header{
+  background: none;
+}
+.digital-main .mobdev-page h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+.digital-main .mobdev-page p{
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.digital-main .mobdev-page h2,
+.digital-main .mobdev-page p{
+  color: rgba(255, 255, 255, 1);
+}
+
+/* digital marketing agency in india */
+.digital-marketing-agency-in-india{
+  padding-top: 20px;
+}
+.digital-marketing-agency-in-india h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: rgba(55, 52, 158, 1);
+}
+.digital-marketing-agency-in-india p{
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* digital marketing services */
+.digital-marketing-services{
+  background: rgba(246, 242, 242, 1) !important;
+  padding-top: 50px !important;
+  margin-top: 50px;
+}
+.digital-marketing-services h4{
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+.digital-marketing-services .commen-service-box{
+  padding-top: 30px;
+}
+.digital-marketing-services .commen-service-box .serv_cards_box{
+  padding: 0 7%;
+  justify-content: space-between;
+}
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card{
+  background: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(180deg, #5550E4 0%, #25A0A0 100%) border-box;
+  border: 2px solid transparent; 
+  padding: 10px 0 !important;
+  box-shadow: 0px -1px 6px 1px rgba(187, 193, 193, 1);
+  width: 48%;
+}
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card .heading-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+}
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card .heading-wrapper h2{
+  text-transform: uppercase;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card .heading-wrapper img{
+  width: 50px;
+}
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card ul{
+  list-style: disc;
+}
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card ul li{
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 15px;
+}
+
+/* digital marketing agency in bangalore */
+.digital-marketing-agency-in-bangalore div{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.digital-marketing-agency-in-bangalore div h2{
+  margin-top: 15px !important;
+  font-size: 30px;
+  color: rgba(55, 52, 158, 1);
+}
+.digital-marketing-agency-in-bangalore div p{
+  width: 60%;
+  font-size: 16px;
+}
+.digital-marketing-agency-in-bangalore .digital-marketing-agency-left{
+  flex-direction: column;
+}
+.digital-marketing-agency-in-bangalore .digital-marketing-agency-left .digital-marketing-agency-counter{
+  background: rgba(146, 239, 233, 1);
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 70px;
+  padding: 30px 0;
+}
+.digital-marketing-agency-in-bangalore .digital-marketing-agency-left .digital-marketing-agency-counter h2{
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* best digital marketing agency in Bangalore */
+.best-digital-marketing-agency{
+  padding: 60px 7%;
+  background: rgba(246, 242, 242, 1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.best-digital-marketing-agency h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(55, 52, 158, 1);
+}
+.best-digital-marketing-agency p{
+  width: 60%;
+  font-weight: 400;
+}
+
+/* digial marketing services provided */
+.digital-marketing-services-provided{
+  padding: 30px 7% 10px 7%;
+}
+.digital-marketing-services-provided h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(21, 20, 20, 1);
+}
+.digital-marketing-services-provided .serv_cards_box{
+  gap: 0;
+  justify-content: flex-start;
+  margin: 4vmax 0 !important;
+}
+.digital-marketing-services-provided .serv_card{
+  width: 33%;
+  padding: 10px;
+  align-items: flex-start;
+}
+.digital-marketing-services-provided .serv_card img{
+  width: 50px;
+}
+.digital-marketing-services-provided .serv_card .heading-wrapper h2{
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(55, 52, 158, 1);
+}
+.digital-marketing-services-provided .serv_card .heading-wrapper p{
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
 
 /* 6. data analytics page */
 
@@ -5073,6 +5245,7 @@ p{
     #4054b9 98.39%
   );
 }
+
 /* 7. content writing page */
 .contentwritting-main {
   background: linear-gradient(280.73deg, #4dd6ce 32.69%, #63b2ff 98.11%);
