@@ -205,7 +205,7 @@ a {
 
 /* responsive header */
 @media (max-width: 991px) {
-  .header-main{
+  .header-main {
     justify-content: space-between;
   }
   .menu-item {
@@ -293,7 +293,6 @@ a {
     display: flex;
   }
 }
-
 
 /*home section*/
 .home-section {
@@ -3063,7 +3062,7 @@ input {
   align-items: center;
   width: 70%;
 }
-.service-home .home-left h2{
+.service-home .home-left h2 {
   font-family: "Righteous", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -3076,22 +3075,22 @@ input {
 }
 
 /* service counter */
-.service-counter{
+.service-counter {
   margin: 40px 0;
   background: rgba(249, 249, 249, 1);
 }
-.service-counter .counter-box h4{
+.service-counter .counter-box h4 {
   font-size: 24px;
   line-height: 36px;
   color: rgba(55, 52, 158, 1);
 }
-.service-counter .counter-box h3{
+.service-counter .counter-box h3 {
   font-size: 20px;
   line-height: 30px;
   color: rgba(0, 0, 0, 1);
 }
 .service-counter .counter-box h3,
-.service-counter .counter-box h4{
+.service-counter .counter-box h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
@@ -3151,7 +3150,7 @@ input {
   padding: 40px 7%;
 }
 
-.service-box-wrapper h1{
+.service-box-wrapper h1 {
   font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -3168,7 +3167,7 @@ input {
   margin-top: 30px;
 }
 
-.service-box-wrapper .service-cards .service-card{
+.service-box-wrapper .service-cards .service-card {
   background: rgba(252, 252, 252, 1);
   box-shadow: 3px 0px 10px 0px rgba(140, 139, 139, 0.25);
   width: 30%;
@@ -3178,7 +3177,7 @@ input {
   flex-direction: column;
 }
 
-.service-box-wrapper .service-cards .service-card .img-wrapper{
+.service-box-wrapper .service-cards .service-card .img-wrapper {
   width: 90px;
   height: 90px;
   display: flex;
@@ -3186,11 +3185,11 @@ input {
   justify-content: center;
 }
 
-.service-box-wrapper .service-cards .service-card .img-wrapper img{
+.service-box-wrapper .service-cards .service-card .img-wrapper img {
   width: 75px;
 }
 
-.service-box-wrapper .service-cards .service-card h2{
+.service-box-wrapper .service-cards .service-card h2 {
   font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -3199,7 +3198,7 @@ input {
   height: 30px;
 }
 
-.service-box-wrapper .service-cards .service-card p{
+.service-box-wrapper .service-cards .service-card p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -3207,7 +3206,6 @@ input {
   color: rgba(0, 0, 0, 1);
   margin-top: 35px;
   padding: 0 20px;
-
 }
 
 /* service salefore app develoment */
@@ -3239,33 +3237,31 @@ input {
 
 /* cloud services */
 .cloud-services h1,
-.cloud-services h4{
+.cloud-services h4 {
   text-align: center;
   margin-top: 10px;
 }
 
-.cloud-services h1{
-  font-family: "Righteous",sans-serif;
+.cloud-services h1 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 100%;
 }
 
 .cloud-services h1,
-.cloud-services h2{
+.cloud-services h2 {
   color: rgba(55, 52, 158, 1);
 }
 
-.cloud-services h4{
-  font-family: "Poppins",sans-serif;
+.cloud-services h4 {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 25px;
   margin-top: 35px;
   color: rgba(0, 0, 0, 1);
 }
-
-
 
 /* industries */
 
@@ -3353,17 +3349,17 @@ input {
 }
 
 .all-sectors
-.all-sector-single-box
-.sector-single-box
-.sector-single-box-right {
+  .all-sector-single-box
+  .sector-single-box
+  .sector-single-box-right {
   padding-left: 80px;
 }
 
 .all-sectors
-.all-sector-single-box
-.sector-single-box
-.sector-single-box-right
-p {
+  .all-sector-single-box
+  .sector-single-box
+  .sector-single-box-right
+  p {
   margin: 20px 0;
   font-weight: 400;
   font-size: 18px;
@@ -3383,7 +3379,7 @@ p {
   gap: 20px;
 }
 
-.industry-box-wrapper .industry-cards .industry-card{
+.industry-box-wrapper .industry-cards .industry-card {
   background: rgba(252, 252, 252, 1);
   box-shadow: 3px 0px 10px 0px rgba(140, 139, 139, 0.25);
   width: 30%;
@@ -3393,7 +3389,7 @@ p {
   flex-direction: column;
 }
 
-.industry-box-wrapper .industry-cards .industry-card .img-wrapper{
+.industry-box-wrapper .industry-cards .industry-card .img-wrapper {
   width: 90px;
   height: 90px;
   display: flex;
@@ -3401,11 +3397,11 @@ p {
   justify-content: center;
 }
 
-.industry-box-wrapper .industry-cards .industry-card .img-wrapper img{
+.industry-box-wrapper .industry-cards .industry-card .img-wrapper img {
   width: 75px;
 }
 
-.industry-box-wrapper .industry-cards .industry-card h2{
+.industry-box-wrapper .industry-cards .industry-card h2 {
   font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -3414,7 +3410,7 @@ p {
   height: 30px;
 }
 
-.industry-box-wrapper .industry-cards .industry-card p{
+.industry-box-wrapper .industry-cards .industry-card p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -3422,7 +3418,6 @@ p {
   color: rgba(0, 0, 0, 1);
   margin-top: 35px;
   padding: 0 20px;
-
 }
 
 @media (max-width: 840px) {
@@ -4564,7 +4559,7 @@ p {
   font-weight: 400;
   color: white;
 }
-.webdev_left h3{
+.webdev_left h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -4581,111 +4576,108 @@ p {
 }
 
 /* web-dev services */
-.web-dev-service h1{
+.web-dev-service h1 {
   text-align: left;
 }
-.web-dev-service .service-card{
+.web-dev-service .service-card {
   background: rgba(243, 243, 245, 1) !important;
   box-shadow: 0px 4px 4px 0px rgba(101, 95, 95, 0.25);
   padding: 10px;
 }
-.web-dev-service
-.service-cards
-.service-card
-p{
+.web-dev-service .service-cards .service-card p {
   margin-top: 10px !important;
   padding: 0 !important;
 }
 
 /* web application development */
-.web-application-development{
+.web-application-development {
   background: rgba(254, 206, 144, 1);
 }
-.web-application-development h2{
+.web-application-development h2 {
   color: rgba(55, 52, 158, 1);
 }
-.web-application-development p{
+.web-application-development p {
   margin-top: 20px;
 }
 
 /* web dev banner */
-.webdev-banner{
+.webdev-banner {
   margin-top: 90px !important;
 }
 
 /* web dev service counter */
-.webdev-service-counter h3{
+.webdev-service-counter h3 {
   color: rgba(55, 52, 158, 1) !important;
   text-align: center;
 }
 
 /* web dev website design */
-.webdev-website-design{
+.webdev-website-design {
   margin-top: 40px;
 }
-.webdev-website-design h1{
-  font-family: 'Righteous',sans-serif;
+.webdev-website-design h1 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: rgba(55, 52, 158, 1);
   text-align: center;
 }
 .webdev-website-design .our-vision,
-.webdev-website-design .our-mission{
+.webdev-website-design .our-mission {
   margin-top: 0 !important;
 }
-.webdev-website-design .our-mission .our-mission-left{
+.webdev-website-design .our-mission .our-mission-left {
   width: 60% !important;
 }
-.webdev-website-design .landing-page-header{
+.webdev-website-design .landing-page-header {
   display: flex;
   align-items: center;
   gap: 25px;
 }
-.webdev-website-design .landing-page-header img:nth-child(1){
+.webdev-website-design .landing-page-header img:nth-child(1) {
   top: 20px;
   left: 20px;
 }
-.webdev-website-design .landing-page-header h2{
+.webdev-website-design .landing-page-header h2 {
   font-weight: 700;
   font-size: 20px;
 }
 .webdev-website-design .landing-page-header h2,
-.webdev-website-design ul li{
-  font-family: "Poppins",sans-serif;
+.webdev-website-design ul li {
+  font-family: "Poppins", sans-serif;
   color: rgba(23, 21, 21, 1);
 }
-.webdev-website-design ul{
+.webdev-website-design ul {
   margin-top: 20px;
 }
-.webdev-website-design ul li{
+.webdev-website-design ul li {
   list-style-type: disc;
   padding-left: 15px;
   margin: 10px 0;
   font-weight: 400;
   font-size: 16px;
 }
-.webdev-website-design ul li::marker{
+.webdev-website-design ul li::marker {
   font-size: 20px;
   color: rgba(55, 52, 158, 1);
 }
 
 /* web design technologies */
-.web-design-technologies{
+.web-design-technologies {
   background: none !important;
 }
-.web-design-technologies h2{
+.web-design-technologies h2 {
   padding: 0 7% !important;
 }
-.web-design-technologies .web-design-tech{
+.web-design-technologies .web-design-tech {
   padding: 20px 0 !important;
   margin: 0 !important;
   background: rgba(249, 249, 249, 1) !important;
 }
-.web-design-technologies .web-design-tech-box{
+.web-design-technologies .web-design-tech-box {
   gap: 20px !important;
 }
-.web-design-technologies .img-wrapper{
+.web-design-technologies .img-wrapper {
   height: 100px;
   width: 100px;
   display: flex;
@@ -4694,32 +4686,32 @@ p{
 }
 
 /* web dev softwares */
-.webdev-box-top{
+.webdev-box-top {
   padding: 10px 7%;
   justify-content: flex-start !important;
 }
-.webdev-box-top .profile{
+.webdev-box-top .profile {
   margin: 30px 0 30px 16px !important;
 }
 
 /* web dev testimonials */
-.webdev-testimonials{
+.webdev-testimonials {
   background: #ffffff;
 }
-.webdev-testimonials .testimonial-slider{
+.webdev-testimonials .testimonial-slider {
   box-shadow: none !important;
 }
-.webdev-testimonials h3{
-  font-family: "Righteous",sans-serif;
+.webdev-testimonials h3 {
+  font-family: "Righteous", sans-serif;
   color: rgba(55, 52, 158, 1);
   text-transform: capitalize;
   font-weight: 400;
   font-size: 28px;
 }
-.webdev-testimonials h4{
+.webdev-testimonials h4 {
   color: rgba(13, 13, 14, 1);
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   margin-top: 15px;
 }
@@ -4756,6 +4748,9 @@ p{
     #0c6082 100%
   );
 }
+.mobdev-main .header {
+  background: none;
+}
 
 .mobdev-page {
   padding: 40px 7%;
@@ -4768,19 +4763,18 @@ p{
 .mobdev_left {
   width: 75%;
 }
-.mobdev_left h2{
-  font-family: "Righteous",sans-serif;
+.mobdev_left h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 36px;
   color: rgba(255, 255, 255, 1);
 }
-
-.mobdev_left_paraone {
+.mobdev-main .mobdev_left p {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .mobdev_right {
@@ -4789,6 +4783,92 @@ p{
 .mobdev_right img {
   width: 100%;
 }
+
+/* mobile app development */
+.mobile-app-development {
+  background: none !important;
+}
+.mobile-app-development h2 {
+  text-align: center;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(55, 52, 158, 1);
+}
+.mobile-app-development p {
+  margin-top: 25px;
+}
+
+/* mobile app development services we offer */
+.mobile-app-development-services {
+  background: linear-gradient(
+    180deg,
+    #c1f2fb 0%,
+    rgba(255, 244, 244, 0.51) 100%
+  );
+  padding: 30px 0;
+}
+.mobile-app-development-services .our-vision{
+  flex-direction: column;
+}
+.mobile-app-development-services .our-mission{
+  justify-content: end;
+}
+.mobile-app-development-services .our-mission-content{
+  display: flex;
+  flex-direction: column;
+}
+.mobile-app-development-services .our-mission-content .landing-page-header{
+  padding-right: 50px;
+  align-items: flex-end;
+}
+.mobile-app-development-services .landing-page-header {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.mobile-app-development-services .landing-page-header img {
+  position: static;
+}
+.mobile-app-development-services ul{
+  margin-top: 5px;
+}
+.mobile-app-development-services ul li{
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0;
+}
+.mobile-app-development-services ul li::before {
+  content: " ";
+  background-color: rgba(55, 52, 158, 1);
+  font-size: 16px;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: relative;
+  top: 6px;
+}
+
+/* agile approach to develop applications */
+.approach-to-develop-applications h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(55, 52, 158, 1);
+}
+.approach-to-develop-applications p{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
+.approach-to-develop-applications .data-science-boxes{
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+
 
 @media (max-width: 840px) {
   .mobdev-page {
@@ -4820,145 +4900,149 @@ p{
 }
 
 /* ui ux marketing */
-.uiux-marketing .digital-marketing-left h2{
+.uiux-marketing .digital-marketing-left h2 {
   font-weight: 700;
   font-size: 18px;
 }
 .uiux-marketing .digital-marketing-left h2,
-.uiux-marketing .digital-marketing-left p{
-  font-family: "Poppins",sans-serif;
+.uiux-marketing .digital-marketing-left p {
+  font-family: "Poppins", sans-serif;
 }
-.uiux-marketing .digital-marketing-left p{
+.uiux-marketing .digital-marketing-left p {
   font-weight: 500;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
 }
-.uiux-marketing .digital-marketing-right img{
+.uiux-marketing .digital-marketing-right img {
   width: 100%;
 }
 
 /* ui ux business */
-.uiux-business h2{
-  font-family: "Righteous",sans-serif;
+.uiux-business h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 35px;
   color: rgba(21, 20, 20, 1);
   margin-top: 15px;
 }
-.ui-ux-business ul li{
+.ui-ux-business ul li {
   color: rgba(0, 0, 0, 1);
 }
 
 /* ui ux service box */
-.uiux-service-box{
-  background: linear-gradient(180deg, #FBDEB9 0%, rgba(255, 244, 244, 0.51) 100%);
+.uiux-service-box {
+  background: linear-gradient(
+    180deg,
+    #fbdeb9 0%,
+    rgba(255, 244, 244, 0.51) 100%
+  );
   padding-top: 50px;
 }
-.uiux-service-box h3{
-  font-family: "Poppins",sans-serif;
+.uiux-service-box h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
   color: rgba(0, 0, 0, 1);
-  margin:20px 0;
+  margin: 20px 0;
 }
-.uiux-service-box .service-cards{
+.uiux-service-box .service-cards {
   margin-top: 10px;
 }
-.uiux-service-box .service-card{
+.uiux-service-box .service-card {
   padding: 20px 50px !important;
 }
-.uiux-service-box .service-card p{
+.uiux-service-box .service-card p {
   text-align: center;
   margin-top: 15px !important;
 }
 
 /* design planning */
-.design-planning{
+.design-planning {
   padding: 10px 7% 30px 7%;
   margin: 30px 0;
   background: rgba(246, 246, 246, 1);
 }
-.design-planning h2{
-  font-family: "Righteous",sans-serif;
+.design-planning h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 32px;
   text-align: center;
   color: rgba(75, 73, 73, 1);
 }
-.design-planning .img-wrapper{
+.design-planning .img-wrapper {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 25px;
 }
-.design-planning p{
+.design-planning p {
   margin-top: 20px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
 }
 
 /* uiux branding */
-.uiux-branding h3{
-  font-family: "Poppins",sans-serif;
+.uiux-branding h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
   color: rgba(75, 73, 73, 1);
 }
-.uiux-branding .our-mission .our-mission-left{
+.uiux-branding .our-mission .our-mission-left {
   width: 35% !important;
 }
-.uiux-branding .our-mission .our-mission-left img{
+.uiux-branding .our-mission .our-mission-left img {
   width: 100%;
   height: 100%;
 }
-.uiux-branding .our-mission .our-mission-right{
+.uiux-branding .our-mission .our-mission-right {
   width: 65% !important;
   padding-left: 70px;
 }
-.uiux-branding .our-vision .our-vision-left{
+.uiux-branding .our-vision .our-vision-left {
   width: 70% !important;
 }
 .uiux-branding .our-mission .our-mission-left,
-.uiux-branding .our-vision .our-vision-right{
+.uiux-branding .our-vision .our-vision-right {
   margin-top: 0;
 }
-.uiux-branding .our-vision .our-vision-right{
+.uiux-branding .our-vision .our-vision-right {
   padding-left: 0;
   width: 35%;
 }
-.uiux-branding .our-vision .our-vision-right img{
+.uiux-branding .our-vision .our-vision-right img {
   width: 100%;
 }
-.uiux-branding .landing-page-header{
+.uiux-branding .landing-page-header {
   display: block;
 }
-.uiux-branding h2{
+.uiux-branding h2 {
   font-weight: 600;
   font-size: 20px;
 }
 .uiux-branding h2,
-.uiux-branding p{
-  font-family: "Poppins",sans-serif;
+.uiux-branding p {
+  font-family: "Poppins", sans-serif;
   color: rgba(0, 0, 0, 1);
 }
-.uiux-branding p{
+.uiux-branding p {
   font-weight: 400;
   font-size: 15px;
   margin-top: 10px;
 }
-.uiux-branding .features{
+.uiux-branding .features {
   display: flex;
   padding-top: 0;
 }
-.uiux-branding .features ul{
+.uiux-branding .features ul {
   margin-top: 5px;
   padding-left: 0 !important;
 }
-.uiux-branding .features ul li{
+.uiux-branding .features ul li {
   list-style-type: none;
   padding-left: 5px;
   font-size: 15px;
@@ -4977,62 +5061,61 @@ p{
 }
 
 /* ui ux design firm */
-.uiux-design-firm h1{
+.uiux-design-firm h1 {
   display: flex;
   justify-content: center;
   text-align: left;
   padding: 20px 7%;
 }
 .uiux-design-firm p,
-.uiux-design-firm .features ul li{
+.uiux-design-firm .features ul li {
   font-size: 16px;
 }
-.uiux-design-firm p{
+.uiux-design-firm p {
   margin-top: 15px;
 }
-.uiux-design-firm .features ul li{
+.uiux-design-firm .features ul li {
   margin-top: 15px;
 }
-.uiux-design-firm img{
+.uiux-design-firm img {
   border-radius: 23px;
 }
 
 /* ui ux design services */
-.uiux-design-service h2{
-  font-family: "Righteous",sans-serif;
+.uiux-design-service h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   color: rgba(55, 52, 158, 1);
   text-align: center;
 }
 
-.uiux-design-service .feature-content h3{
+.uiux-design-service .feature-content h3 {
   color: rgba(0, 0, 0, 1);
 }
 
 /* ui ux design agency */
-.uiux-design-agency{
+.uiux-design-agency {
   padding: 30px 7%;
 }
-.uiux-design-agency h2{
-  font-family: "Righteous",sans-serif;
+.uiux-design-agency h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
   text-align: center;
 }
-.uiux-design-agency .content{
+.uiux-design-agency .content {
   margin-top: 30px;
 }
-.uiux-design-agency h3{
-  font-family: "Poppins",sans-serif;
+.uiux-design-agency h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 24px;
   color: rgba(0, 0, 0, 1);
 }
-.uiux-design-agency .content p{
+.uiux-design-agency .content p {
   margin-top: 10px;
 }
-
 
 /* 4. renewal subscription */
 .renewal-sub-main {
@@ -5054,95 +5137,114 @@ p{
     #3fc299 100%
   );
 }
-.digital-main .header{
+.digital-main .header {
   background: none;
 }
-.digital-main .mobdev-page h2{
-  font-family: "Righteous",sans-serif;
+.digital-main .mobdev-page h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 36px;
 }
-.digital-main .mobdev-page p{
-  font-family: "Poppins",sans-serif;
+.digital-main .mobdev-page p {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-top: 20px;
   line-height: 25px;
 }
 .digital-main .mobdev-page h2,
-.digital-main .mobdev-page p{
+.digital-main .mobdev-page p {
   color: rgba(255, 255, 255, 1);
 }
 
 /* digital marketing agency in india */
-.digital-marketing-agency-in-india{
+.digital-marketing-agency-in-india {
   padding-top: 20px;
 }
-.digital-marketing-agency-in-india h2{
-  font-family: "Righteous",sans-serif;
+.digital-marketing-agency-in-india h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 26px;
   color: rgba(55, 52, 158, 1);
 }
-.digital-marketing-agency-in-india p{
-  font-family: "Poppins",sans-serif;
+.digital-marketing-agency-in-india p {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
 
 /* digital marketing services */
-.digital-marketing-services{
+.digital-marketing-services {
   background: rgba(246, 242, 242, 1) !important;
   padding-top: 50px !important;
   margin-top: 50px;
 }
-.digital-marketing-services h4{
+.digital-marketing-services h4 {
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
-.digital-marketing-services .commen-service-box{
+.digital-marketing-services .commen-service-box {
   padding-top: 30px;
 }
-.digital-marketing-services .commen-service-box .serv_cards_box{
+.digital-marketing-services .commen-service-box .serv_cards_box {
   padding: 0 7%;
   justify-content: space-between;
 }
-.digital-marketing-services .commen-service-box .serv_cards_box .serv_card{
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card {
   background: rgba(255, 255, 255, 1);
   border-radius: 12px;
   background: linear-gradient(white, white) padding-box,
-              linear-gradient(180deg, #5550E4 0%, #25A0A0 100%) border-box;
-  border: 2px solid transparent; 
+    linear-gradient(180deg, #5550e4 0%, #25a0a0 100%) border-box;
+  border: 2px solid transparent;
   padding: 10px 0 !important;
   box-shadow: 0px -1px 6px 1px rgba(187, 193, 193, 1);
   width: 48%;
 }
-.digital-marketing-services .commen-service-box .serv_cards_box .serv_card .heading-wrapper{
+.digital-marketing-services
+  .commen-service-box
+  .serv_cards_box
+  .serv_card
+  .heading-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 0 10px;
 }
-.digital-marketing-services .commen-service-box .serv_cards_box .serv_card .heading-wrapper h2{
+.digital-marketing-services
+  .commen-service-box
+  .serv_cards_box
+  .serv_card
+  .heading-wrapper
+  h2 {
   text-transform: uppercase;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
-.digital-marketing-services .commen-service-box .serv_cards_box .serv_card .heading-wrapper img{
+.digital-marketing-services
+  .commen-service-box
+  .serv_cards_box
+  .serv_card
+  .heading-wrapper
+  img {
   width: 50px;
 }
-.digital-marketing-services .commen-service-box .serv_cards_box .serv_card ul{
+.digital-marketing-services .commen-service-box .serv_cards_box .serv_card ul {
   list-style: disc;
 }
-.digital-marketing-services .commen-service-box .serv_cards_box .serv_card ul li{
-  font-family: "Poppins",sans-serif;
+.digital-marketing-services
+  .commen-service-box
+  .serv_cards_box
+  .serv_card
+  ul
+  li {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
@@ -5150,86 +5252,91 @@ p{
 }
 
 /* digital marketing agency in bangalore */
-.digital-marketing-agency-in-bangalore div{
+.digital-marketing-agency-in-bangalore div {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
-.digital-marketing-agency-in-bangalore div h2{
+.digital-marketing-agency-in-bangalore div h2 {
   margin-top: 15px !important;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.digital-marketing-agency-in-bangalore div p{
+.digital-marketing-agency-in-bangalore div p {
   width: 60%;
   font-size: 16px;
 }
-.digital-marketing-agency-in-bangalore .digital-marketing-agency-left{
+.digital-marketing-agency-in-bangalore .digital-marketing-agency-left {
   flex-direction: column;
 }
-.digital-marketing-agency-in-bangalore .digital-marketing-agency-left .digital-marketing-agency-counter{
+.digital-marketing-agency-in-bangalore
+  .digital-marketing-agency-left
+  .digital-marketing-agency-counter {
   background: rgba(146, 239, 233, 1);
   width: 100%;
   justify-content: space-around;
   margin-top: 70px;
   padding: 30px 0;
 }
-.digital-marketing-agency-in-bangalore .digital-marketing-agency-left .digital-marketing-agency-counter h2{
-  font-family: "Poppins",sans-serif;
+.digital-marketing-agency-in-bangalore
+  .digital-marketing-agency-left
+  .digital-marketing-agency-counter
+  h2 {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 24px;
 }
 
 /* best digital marketing agency in Bangalore */
-.best-digital-marketing-agency{
+.best-digital-marketing-agency {
   padding: 60px 7%;
   background: rgba(246, 242, 242, 1);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
-.best-digital-marketing-agency h2{
-  font-family: "Righteous",sans-serif;
+.best-digital-marketing-agency h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.best-digital-marketing-agency p{
+.best-digital-marketing-agency p {
   width: 60%;
   font-weight: 400;
 }
 
 /* digial marketing services provided */
-.digital-marketing-services-provided{
+.digital-marketing-services-provided {
   padding: 30px 7% 10px 7%;
 }
-.digital-marketing-services-provided h2{
-  font-family: "Righteous",sans-serif;
+.digital-marketing-services-provided h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(21, 20, 20, 1);
 }
-.digital-marketing-services-provided .serv_cards_box{
+.digital-marketing-services-provided .serv_cards_box {
   gap: 0;
   justify-content: flex-start;
   margin: 4vmax 0 !important;
 }
-.digital-marketing-services-provided .serv_card{
+.digital-marketing-services-provided .serv_card {
   width: 33%;
   padding: 10px;
   align-items: flex-start;
 }
-.digital-marketing-services-provided .serv_card img{
+.digital-marketing-services-provided .serv_card img {
   width: 50px;
 }
-.digital-marketing-services-provided .serv_card .heading-wrapper h2{
-  font-family: "Poppins",sans-serif;
+.digital-marketing-services-provided .serv_card .heading-wrapper h2 {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: rgba(55, 52, 158, 1);
 }
-.digital-marketing-services-provided .serv_card .heading-wrapper p{
-  font-family: "Poppins",sans-serif;
+.digital-marketing-services-provided .serv_card .heading-wrapper p {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
@@ -5252,55 +5359,55 @@ p{
 }
 
 /* content writing main */
-.content-writing-hero{
+.content-writing-hero {
   padding: 40px 7%;
 }
-.content-writing-hero h2{
+.content-writing-hero h2 {
   margin-top: 10px;
 }
 
 /* content wrting why choose us */
-.content-wrting-why-choose-us{
+.content-wrting-why-choose-us {
   padding: 30px 7%;
 }
-.content-wrting-why-choose-us p{
-  font-family: "Poppins",sans-serif;
+.content-wrting-why-choose-us p {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
   margin-top: 15px;
 }
-.content-wrting-why-choose-us .why-choose-us-content h2{
+.content-wrting-why-choose-us .why-choose-us-content h2 {
   margin-top: 25px;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 26px;
   color: rgba(55, 52, 158, 1);
 }
 
 /* content writing agency services */
-.content-writing-agency-service-container{
-  background: linear-gradient(358.34deg, #3ED9BD -89.03%, #4054B9 98.5%);
+.content-writing-agency-service-container {
+  background: linear-gradient(358.34deg, #3ed9bd -89.03%, #4054b9 98.5%);
 }
-.content-writing-agency-service-container .box-top{
+.content-writing-agency-service-container .box-top {
   justify-content: flex-start;
   padding: 0 7%;
 }
 
 /* content writing agency counter */
-.content-writing-agency-counter{
+.content-writing-agency-counter {
   flex-direction: column;
   background: none;
 }
-.content-writing-agency-counter h2{
+.content-writing-agency-counter h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 26px;
   color: rgba(55, 52, 158, 1);
 }
-.content-writing-agency-counter .counter-boxes{
+.content-writing-agency-counter .counter-boxes {
   display: flex;
   padding: 30px 7%;
   justify-content: space-between;
@@ -5308,43 +5415,43 @@ p{
 }
 
 /* content writing solution */
-.content-writing-solution{
+.content-writing-solution {
   padding: 0 7%;
 }
-.content-writing-solution h2{
-  font-family: "Righteous",sans-serif;
+.content-writing-solution h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 26px;
   text-align: center;
   color: rgba(55, 52, 158, 1);
 }
-.content-writing-solution h3{
+.content-writing-solution h3 {
   font-weight: 700;
   margin: 20px 0;
 }
 .content-writing-solution h3,
-.content-writing-solution .service-solutions .data-left ul li{
-  font-family: "Poppins",sans-serif;
+.content-writing-solution .service-solutions .data-left ul li {
+  font-family: "Poppins", sans-serif;
 }
 .content-writing-solution h3,
-.content-writing-solution h4{
+.content-writing-solution h4 {
   font-size: 22px;
 }
 .content-writing-solution h3,
 .content-writing-solution h4,
-.content-writing-solution .service-solutions .data-left ul li{
+.content-writing-solution .service-solutions .data-left ul li {
   color: rgba(0, 0, 0, 1);
 }
-.content-writing-solution .service-solutions{
+.content-writing-solution .service-solutions {
   display: flex;
   justify-content: space-between;
   margin: 45px 0;
 }
-.content-writing-solution .service-solutions .data-left h4{
-  font-family: "Poppins",sans-serif;
+.content-writing-solution .service-solutions .data-left h4 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-.content-writing-solution .service-solutions .data-left ul li{
+.content-writing-solution .service-solutions .data-left ul li {
   margin: 15px 0;
   font-weight: 400;
   font-size: 16px;
@@ -5363,33 +5470,33 @@ p{
 }
 
 /* B2B product and service solution */
-.B2B-product-service-solution{
+.B2B-product-service-solution {
   padding: 30px 7%;
 }
-.B2B-product-service-solution h2{
-  font-family: "Righteous",sans-serif;
+.B2B-product-service-solution h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 26px;
   text-align: center;
   color: rgba(55, 52, 158, 1);
 }
-.B2B-product-service-solution ul{
+.B2B-product-service-solution ul {
   padding: 20px 0;
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
 }
-.B2B-product-service-solution ul li{
+.B2B-product-service-solution ul li {
   width: 25%;
-  font-size: "Poppins",sans-serif;
+  font-size: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
   display: flex;
   align-items: center;
 }
-.B2B-product-service-solution ul li::before{
+.B2B-product-service-solution ul li::before {
   content: " ";
   background-color: rgba(55, 52, 158, 1);
   font-size: 16px;
@@ -5401,21 +5508,21 @@ p{
 }
 
 /* content writing industries */
-.content-writing-industries h2{
-  font-family: "Righteous",sans-serif;
+.content-writing-industries h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 26px;
   text-align: center;
   color: rgba(55, 52, 158, 1);
   padding-top: 20px;
 }
-.content-writing-industries .box-top{
+.content-writing-industries .box-top {
   margin-top: 25px;
   justify-content: space-between !important;
   row-gap: 25px;
   padding-bottom: 60px;
 }
-.content-writing-industries .box-top .industry-single-box{
+.content-writing-industries .box-top .industry-single-box {
   background: #ffffff;
   border-radius: 6px !important;
   display: flex;
@@ -5426,28 +5533,28 @@ p{
   padding-left: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.content-writing-industries .box-top .industry-single-box h3{
-  font-family: "Poppins",sans-serif;
+.content-writing-industries .box-top .industry-single-box h3 {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
-.content-writing-industries .box-top .industry-single-box .img-wrapper{
+.content-writing-industries .box-top .industry-single-box .img-wrapper {
   height: 100%;
 }
 
 /* best content writing agency */
-.best-agency{
+.best-agency {
   padding: 20px 0;
 }
-.best-agency h2{
-  font-family: "Poppins",sans-serif;
-  font-size:22px;
+.best-agency h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
   font-weight: 600;
   color: rgba(0, 0, 0, 1);
   margin-top: 15px;
 }
-.best-agency p{
+.best-agency p {
   margin-top: 10px;
   font-size: 16px;
 }
@@ -5485,11 +5592,11 @@ p{
 }
 
 /* our goal */
-.our-goal{
+.our-goal {
   padding: 10px 7% 50px 7%;
 }
-.our-goal p{
-  font-family: "Poppins",sans-serif;
+.our-goal p {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
@@ -5505,17 +5612,17 @@ p{
     #63b2ff 98.35%
   );
 }
-.consulting-main .header{
+.consulting-main .header {
   background: none;
 }
-.consulting-main .mobdev_left{
-  width:65%;
+.consulting-main .mobdev_left {
+  width: 65%;
 }
-.consulting-main .mobdev_right{
-  width:35%;
+.consulting-main .mobdev_right {
+  width: 35%;
 }
-.consulting-main .mobdev-page .mobdev_left p{
-  font-family: "Poppins",sans-serif;
+.consulting-main .mobdev-page .mobdev_left p {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
@@ -5523,50 +5630,54 @@ p{
 }
 
 /* grow your business */
-.grow-your-business{
+.grow-your-business {
   background: rgba(244, 244, 244, 1);
   padding: 40px 0;
 }
-.grow-your-business p{
+.grow-your-business p {
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
 
 /* how advertising carried out */
-.how-advertising-carried-out h2{
+.how-advertising-carried-out h2 {
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.how-advertising-carried-out p{
+.how-advertising-carried-out p {
   margin-top: 25px;
   color: rgba(0, 0, 0, 1);
 }
 
 /* our approach */
-.our-approach{
+.our-approach {
   padding: 20px 7%;
-  background: linear-gradient(180deg, #FBDEB9 0%, rgba(255, 244, 244, 0.51) 100%);
+  background: linear-gradient(
+    180deg,
+    #fbdeb9 0%,
+    rgba(255, 244, 244, 0.51) 100%
+  );
 }
-.our-approach h2{
-  font-family: "Righteous",sans-serif;
+.our-approach h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
   text-align: center;
 }
-.our-approach .approach-boxes{
+.our-approach .approach-boxes {
   display: flex;
   gap: 15px;
 }
-.our-approach .approach-boxes .approach-box-wrapper{
+.our-approach .approach-boxes .approach-box-wrapper {
   display: flex;
   margin: 10px 0;
   width: 50%;
 }
-.our-approach .approach-boxes .approach-box-wrapper .approach-box{
+.our-approach .approach-boxes .approach-box-wrapper .approach-box {
   background: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
@@ -5578,196 +5689,201 @@ p{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .our-approach .approach-boxes .approach-box-wrapper .approach-box h3,
-.our-approach .approach-boxes .approach-box-wrapper .approach-box p{
-  font-family: "Poppins",sans-serif;
+.our-approach .approach-boxes .approach-box-wrapper .approach-box p {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
 }
-.our-approach .approach-boxes .approach-box-wrapper .approach-box p{
+.our-approach .approach-boxes .approach-box-wrapper .approach-box p {
   text-align: center;
   font-weight: 400;
 }
 
 /* advising consultants benefit */
-.advising-consultants-benefit{
+.advising-consultants-benefit {
   padding: 30px 7%;
 }
-.advising-consultants-benefit h2{
-  font-family: "Righteous",sans-serif;
+.advising-consultants-benefit h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.advising-consultants-benefit .benefits-boxes{
+.advising-consultants-benefit .benefits-boxes {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
-.advising-consultants-benefit .benefits-boxes .benefits-box h3{
+.advising-consultants-benefit .benefits-boxes .benefits-box h3 {
   font-weight: 700;
   font-size: 22px;
 }
 .advising-consultants-benefit .benefits-boxes .benefits-box h3,
-.advising-consultants-benefit .benefits-boxes .benefits-box p{
-  font-family: "Poppins",sans-serif;
+.advising-consultants-benefit .benefits-boxes .benefits-box p {
+  font-family: "Poppins", sans-serif;
   color: rgba(0, 0, 0, 1);
 }
-.advising-consultants-benefit .benefits-boxes .benefits-box p{
+.advising-consultants-benefit .benefits-boxes .benefits-box p {
   font-weight: 400;
   font-size: 18px;
   margin-top: 10px;
 }
 
 /* our business consulting */
-.our-business-consulting{
+.our-business-consulting {
   padding: 30px 7%;
 }
-.our-business-consulting h2{
-  font-family: "Righteous",sans-serif;
+.our-business-consulting h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
   text-align: center;
 }
-.our-business-consulting .about-business-consulting h3{
+.our-business-consulting .about-business-consulting h3 {
   font-weight: 700;
   font-size: 22px;
 }
 .our-business-consulting .about-business-consulting h3,
-.our-business-consulting .about-business-consulting p{
+.our-business-consulting .about-business-consulting p {
   margin-top: 15px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgba(0, 0, 0, 1);
 }
-.our-business-consulting .about-business-consulting p{
+.our-business-consulting .about-business-consulting p {
   font-weight: 400;
   font-size: 18px;
 }
 
 /* key offerings */
-.key-offerings{
+.key-offerings {
   padding: 30px 7% 80px 7%;
   background: rgba(245, 246, 247, 1);
 }
-.key-offerings h2{
+.key-offerings h2 {
   text-align: center;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.key-offerings .key-offerings-boxes{
+.key-offerings .key-offerings-boxes {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
   margin-top: 15px;
 }
-.key-offerings .key-offerings-boxes .key-offering-single-box{
+.key-offerings .key-offerings-boxes .key-offering-single-box {
   width: 23%;
   background: rgba(131, 231, 225, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:8px;
+  gap: 8px;
   padding: 10px;
 }
-.key-offerings .key-offerings-boxes .key-offering-single-box h3{
+.key-offerings .key-offerings-boxes .key-offering-single-box h3 {
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
 
 /* business excellence */
-.business-excellence{
+.business-excellence {
   margin-top: 25px;
   padding: 50px 7% 80px 7%;
   background: rgba(245, 246, 247, 1);
 }
 .business-excellence h2,
-.business-excellence p{
+.business-excellence p {
   text-align: center;
   font-weight: 400;
 }
-.business-excellence h2{
-  font-family: "Righteous",sans-serif;
+.business-excellence h2 {
+  font-family: "Righteous", sans-serif;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.business-excellence p{
-  font-family: "Poppins",sans-serif;
+.business-excellence p {
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
   margin-top: 15px;
 }
-.business-excellence .business-excellence-boxes{
+.business-excellence .business-excellence-boxes {
   display: flex;
   justify-content: space-between;
   margin-top: 45px;
 }
-.business-excellence .business-excellence-boxes .business-excellence-single-box{
+.business-excellence
+  .business-excellence-boxes
+  .business-excellence-single-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
 }
-.business-excellence .business-excellence-boxes .business-excellence-single-box h3{
+.business-excellence
+  .business-excellence-boxes
+  .business-excellence-single-box
+  h3 {
   text-align: center;
 }
 
 /* management consulting firms */
-.management-consulting-firms{
+.management-consulting-firms {
   padding: 30px 7%;
 }
-.management-consulting-firms h2{
+.management-consulting-firms h2 {
   margin-top: 15px;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 30px;
   color: rgba(55, 52, 158, 1);
 }
-.management-consulting-firms p{
+.management-consulting-firms p {
   margin-top: 20px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
 
 /* consulting area of specialization */
-.consulting-area-of-specialization{
+.consulting-area-of-specialization {
   background: rgba(245, 246, 247, 1);
   padding-bottom: 0;
 }
-.consulting-area-of-specialization h2{
+.consulting-area-of-specialization h2 {
   text-align: center;
   color: rgba(55, 52, 158, 1);
 }
-.consulting-area-of-specialization .serv_cards_box{
+.consulting-area-of-specialization .serv_cards_box {
   margin-bottom: 0 !important;
 }
-.consulting-area-of-specialization .serv_card{
+.consulting-area-of-specialization .serv_card {
   padding: 25px 15px;
 }
 
 /* our team */
-.our-team{
+.our-team {
   padding: 30px 7%;
 }
-.our-team h2{
+.our-team h2 {
   text-align: center;
   margin-top: 50px;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 38px;
   color: rgba(55, 52, 158, 1);
 }
-.our-team p{
+.our-team p {
   margin-top: 25px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
