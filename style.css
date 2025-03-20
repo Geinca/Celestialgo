@@ -4865,10 +4865,75 @@ input {
 }
 .approach-to-develop-applications .data-science-boxes{
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.approach-to-develop-applications .data-science-boxes .data-science-single-box .img-wrapper{
+  position: relative;
+}
+.approach-to-develop-applications .data-science-boxes .data-science-single-box .img-wrapper img:nth-child(1){
+  width: 90px;
+}
+.approach-to-develop-applications .data-science-boxes .data-science-single-box .img-wrapper img:nth-child(2){
+  width: 65px;
+  position: absolute;
+  z-index: 1;
+  left: 12px;
+  top: 12px;
+}
+.approach-to-develop-applications .data-science-boxes .data-science-single-box h3{
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(21, 20, 20, 1);
 }
 
+/* industries we serve */
+.industries-we-serve{
+  background: rgba(248, 248, 248, 1);
+  padding: 30px 7% 50px 7%;
+}
+.industries-we-serve h2{
+  font-family: "Righteous",sans-serif;
+  font-size: 32px;
+  color: rgba(55, 52, 158, 1);
+}
+.industries-we-serve h2,
+.industries-we-serve p{
+  text-align: center;
+  font-weight: 400;
+}
+.industries-we-serve p{
+  margin: 20px 0;
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 1);
+}
+.industries-we-serve .industries-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.industries-we-serve .industries-boxes .single-industry-box{
+  width: 19%;
+  margin: 5px;
+  padding: 10px;
+  border: 1.8px solid rgba(55, 52, 158, 1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.industries-we-serve .industries-boxes .single-industry-box h3{
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+}
 
 @media (max-width: 840px) {
   .mobdev-page {
