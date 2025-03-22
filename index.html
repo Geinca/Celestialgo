@@ -150,6 +150,7 @@
                 <!-- Swiper Slider -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
+
                         <div class="swiper-slide"
                             style="background: linear-gradient(180deg, #3F36BB 0%, #4A47F5 100%);">
                             <div class="swiper-image-wrapper">
@@ -483,28 +484,28 @@
                 <h4>Discuss</h4>
             </div>
             <div>
-                <img src="./images/works/Arrow 1.png" alt="Arrow" />
+                <img class="work-process-arrow" src="./images/works/Arrow 1.png" alt="Arrow" />
             </div>
             <div class="work-process-single-box">
                 <img src="./images/works/sketch 1.png" alt="Design" />
                 <h4>Design</h4>
             </div>
             <div>
-                <img src="./images/works/Arrow 1.png" alt="Arrow" />
+                <img class="work-process-arrow" src="./images/works/Arrow 1.png" alt="Arrow" />
             </div>
             <div class="work-process-single-box">
                 <img src="./images/works/operation 1.png" alt="Implement" />
                 <h4>Implement</h4>
             </div>
             <div>
-                <img src="./images/works/Arrow 1.png" alt="Arrow" />
+                <img class="work-process-arrow" src="./images/works/Arrow 1.png" alt="Arrow" />
             </div>
             <div class="work-process-single-box">
                 <img src="./images/works/testing 2.png" alt="Testing" />
                 <h4>Testing</h4>
             </div>
             <div>
-                <img src="./images/works/Arrow 1.png" alt="Arrow" />
+                <img class="work-process-arrow" src="./images/works/Arrow 1.png" alt="Arrow" />
             </div>
             <div class="work-process-single-box">
                 <img src="./images/works/box 1.png" alt="Deliver" />
@@ -517,15 +518,15 @@
     <div class="company-details">
         <div class="company-details-left">
             <h2>Best Web Development Company in Bangalore</h2>
-            <p>We guarantee the best outcomes from our web designers. ( make web <br />designers bold and one color.
+            <p>We guarantee the best outcomes from our web designers. ( make web <span class="hide-on-mobile"><br /></span>designers bold and one color.
                 Remaining words different color also bold)
             </p>
-            <p>We make it our mission to be on the cutting edge of design and <br />technology, so that our clients may
-                have websites that are not only <br />aesthetically pleasing but also operate flawlessly. We are known
-                as one of <br />the top web design firms in the business because of our dedication to <br />quality.
+            <p>We make it our mission to be on the cutting edge of design and <span class="hide-on-mobile"><br /></span>technology, so that our clients may
+                have websites that are not only <span class="hide-on-mobile"><br /></span>aesthetically pleasing but also operate flawlessly. We are known
+                as one of <span class="hide-on-mobile"><br /></span>the top web design firms in the business because of our dedication to <br />quality.
             </p>
-            <p>Any company or individual wishing to create an online presence has to have a <br />website.</p>
-            <p>A website gives customers a way to discover more about your brand,<br /> goods, and services. It enables
+            <p>Any company or individual wishing to create an online presence has to have a <span class="hide-on-mobile"><br /></span>website.</p>
+            <p>A website gives customers a way to discover more about your brand,<span class="hide-on-mobile"><br /></span> goods, and services. It enables
                 you to present your products to a global<br /> market and aids in expanding your audience</p>
         </div>
         <div class="company-details-right">
@@ -657,7 +658,7 @@
                             Team, a fantastic designers who exceeded<br />
                             expectations with his attention to detail and<br />
                             communication. CelestialGo is a humble<br />
-                            responsive company. Highly recommend them<br />
+                            responsive company. Highly recommend them<span class="hide-on-mobile"><br /></span>
                             for design projects. Thank you!
                         </p>
                     </div>
@@ -668,8 +669,8 @@
                             </div>
                             <h2 style="color: rgba(245, 1, 5, 1);">Tony Francis Founder, CEO</h2>
                         </div>
-                        <p>Excellent team and they developed a dashboard<br /> within my budget in the short duration.
-                            Kudos to <br />CelestialGo company. I highly recommend them.<br /> They're very
+                        <p>Excellent team and they developed a dashboard<span class="hide-on-mobile"><br /></span> within my budget in the short duration.
+                            Kudos to <span class="hide-on-mobile"><br /></span>CelestialGo company. I highly recommend them.<span class="hide-on-mobile"><br /></span> They're very
                             professional.
                         </p>
                     </div>
@@ -692,7 +693,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- technologies -->
     <div class="technology">
@@ -746,7 +746,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- contact us page -->
     <section class="contact-form" id="quote">
@@ -865,7 +864,7 @@
         <div class="subsribe-left">
             <img src="./images/subsribe.png" alt="home-page">
         </div>
-        <div class="subscribe-rigth">
+        <div class="subscribe-right">
             <p class="subscribe-paraone">STAY WITH US</p>
             <p class="subscribe-paratwo">Subscribe to our newsletters now to know about our relevant content, products,
                 and services. You may unsubscribe from these communications at any time</p>
@@ -952,8 +951,6 @@
         </div>
     </div>
 
-
-
     <!-- footer -->
     <footer class="footer">
         <div class="container">
@@ -987,8 +984,10 @@
                     <span class="footer-sub-head">Get in touch</span>
                     <div class="footer-contact-details">
                         <span style="display: block;">Email Address:</span>
-                        <span style="display: block;"><a href="mailto:info@celestialgo.com">info@celestialgo.com</a></span>
-                        <span style="display: block; margin-top: 15px;">Phone: <a href="tel:+9174111042723">+9174111042723</a></span>
+                        <span style="display: block;"><a
+                                href="mailto:info@celestialgo.com">info@celestialgo.com</a></span>
+                        <span style="display: block; margin-top: 15px;">Phone: <a
+                                href="tel:+9174111042723">+9174111042723</a></span>
                     </div>
                 </div>
 
@@ -1132,11 +1131,24 @@
         document.addEventListener("DOMContentLoaded", function () {
             new Swiper(".mySwiper", {
                 loop: true,
-                slidesPerView: 3,
                 autoplay: {
-                    delay: 1000,          // Auto-slide every 3 sec
+                    delay: 1000,          // Auto-slide every 1 sec
                     disableOnInteraction: false,
                 },
+                breakpoints: {
+                    576: { // Small screens
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: { // Medium screens
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                    },
+                    1024: { // Large screens
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    }
+                }
             });
         });
 
@@ -1179,6 +1191,20 @@
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
+                },
+                breakpoints: {
+                    576: { // Small screens
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    768: { // Medium screens
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                    },
+                    1024: { // Large screens
+                        slidesPerView: 1,
+                        spaceBetween: 40,
+                    }
                 },
                 navigation: {
                     nextEl: '.swiper-button-next',
