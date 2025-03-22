@@ -297,6 +297,7 @@ a {
   }
 }
 
+
 /*home section*/
 .home-section {
   width: 100%;
@@ -353,7 +354,9 @@ a {
   font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
-
+.home_right{
+  width: 60%;
+}
 .home_right img {
   width: 100%;
   height: 100%;
@@ -362,7 +365,7 @@ a {
 /* Swiper Container */
 .swiper {
   width: 100%;
-  max-width: 730px;
+  /* max-width: 730px; */
   height: 350px;
   overflow: hidden;
 }
@@ -370,7 +373,6 @@ a {
 /* Swiper Slide */
 .swiper-slide {
   border-radius: 25px;
-  margin-left: 10px;
 }
 
 .swiper-slide img {
@@ -407,17 +409,19 @@ a {
   .home_left_paratwo {
     font-size: 15px;
   }
-  .home-right {
+  .home_right {
     width: 95%;
   }
 
   /* swiper */
-  .swiper {
-    width: 400px !important;
-  }
   .swiper .swiper-slide {
-    width: 388px !important;
-    margin: 10px 0 0 9px !important;
+    margin: 10px 0 0 0 !important;
+  }
+}
+
+@media (max-width: 375px){
+  .swiper .swiper-slide {
+    margin: 10px 0 0 0 !important;
   }
 }
 
@@ -729,6 +733,11 @@ a {
 }
 
 /* responsiveness */
+@media(max-width:320px){
+  .clients h2{
+    font-size: 23px;
+  }
+}
 @media (max-width: 425px) {
   .clients .client-box .client-single-box,
   .clients .client-box .client-single-box img {
@@ -996,13 +1005,20 @@ a {
 }
 
 /* responsiveness */
-
+@media(max-width:320px){
+  .recent-work-box .recent-work-boxes:nth-child(1) .recent-work-image-box img{
+    width: 100%;
+  }
+}
 @media (max-width: 576px) {
   .recent-work-box {
     flex-direction: column;
     padding: 20px 2%;
   }
   .recent-work-box .recent-work-boxes {
+    width: 100%;
+  }
+  .recent-work-box .recent-work-boxes:nth-child(1) .recent-work-image-box img{
     width: 100%;
   }
 }
@@ -1102,6 +1118,11 @@ a {
 }
 
 /* responsiveness */
+@media(max-width:320px){
+  .company-details-right img:nth-child(1){
+    width: 100%;
+  }
+}
 @media (max-width: 576px) {
   .company-details {
     flex-direction: column;
@@ -1114,7 +1135,11 @@ a {
     line-height: 25px;
     margin: 10px 0;
   }
-  .company-details-right img:nth-child(1) {
+  .company-details-right{
+    width: 100%;
+  }
+  .company-details-right img:nth-child(1),
+  .company-details-right img:nth-child(2) {
     width: 100%;
   }
   .hide-on-mobile {
@@ -2222,6 +2247,10 @@ input {
   .blog-boxes {
     flex-direction: column;
   }
+  .blog-single-box{
+    width: 100%;
+    margin: 10px 0;
+  }
 }
 
 /* new subscribe */
@@ -2641,6 +2670,12 @@ input {
   }
 }
 
+/* responsiveness */
+@media(max-width:320px){
+  .social-icons{
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 576px) {
   .row {
     flex-direction: column;
@@ -2700,6 +2735,19 @@ input {
   height: 100%;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .about-us{
+    flex-direction: column;
+  }
+  .about-us-left {
+    padding-top: 0;
+  }
+  .about-us .about_us_right{
+    margin-top: 20px;
+  }
+}
+
 /* primary-focus */
 .primary-focus {
   padding: 50px 7%;
@@ -2711,6 +2759,19 @@ input {
   font-size: 18px;
   line-height: 27px;
   color: rgba(0, 0, 0, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .primary-focus{
+    padding: 35px 7%;
+  }
+  .primary-focus p {
+    font-size: 16px;
+  }
+  .primary-focus p:nth-child(2){
+    margin-top: 20px !important;
+  }
 }
 
 /* about company */
@@ -2753,6 +2814,22 @@ input {
   font-size: 18px;
   line-height: 27px;
   color: rgba(0, 0, 0, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .about-company .about-company-content{
+    flex-direction: column;
+  }
+  .about-company .about-company-content .left-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-company .about-company-content .right-content{
+    padding-left: 0;
+    margin-top: 10px;
+  }
 }
 
 /* why choose us */
@@ -2883,6 +2960,38 @@ input {
   margin-top: 15px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .our-vision,
+  .our-values {
+    flex-direction: column;
+  }
+  .our-mission{
+    flex-direction: column-reverse;
+  }
+  .our-mission-left{
+    padding-top: 300px;
+  }
+  .our-vision-right,
+  .our-mission-left,
+  .our-values-right {
+    width: 100%;
+  }
+  .our-vision-right,
+  .our-values-right {
+    padding-left: 0;
+  }
+  .our-vision-left img:nth-child(1),
+  .our-vision-left img:nth-child(2),
+  .our-mission-right img:nth-child(1),
+  .our-mission-right img:nth-child(2),
+  .our-values-left img:nth-child(1),
+  .our-values-left img:nth-child(2) {
+    width: 100%;
+  }
+
+}
+
 /* extensive features */
 .extensive-features {
   padding: 30px 0;
@@ -2933,6 +3042,18 @@ input {
   color: rgba(76, 74, 74, 1);
   margin: 10px 0;
 }
+
+/* mobile responsive */
+@media(max-width:425px){
+  .extensive-features .extensive-feature-boxes {
+    flex-direction: column;
+  }
+  .extensive-features .extensive-feature-boxes .feature-single-box {
+    margin: 10px 0;
+    width: 100%;
+  }
+}
+
 
 /* digital marketing & SEO services */
 .best-digital-marketing-company,
@@ -3004,6 +3125,14 @@ input {
   margin-top: 20px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .marketing-services {
+    grid-template-columns: 100%;
+  }
+}
+
+
 /* about us digital marketing */
 .about-us-digital-marketing {
   padding: 50px 7% 30px 7%;
@@ -3030,6 +3159,14 @@ input {
   color: rgba(0, 0, 0, 1);
   margin-top: 15px;
 }
+
+/* mobile responsive */
+@media(max-width:425px){
+  .about-us-digital-marketing{
+    grid-template-columns: 100%;
+  }
+}
+
 
 /* about us all services */
 .about-us-all-services {
@@ -3059,6 +3196,14 @@ input {
   font-size: 16px;
   line-height: 24px;
   color: rgba(0, 0, 0, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .about-us-all-services .all-services-boxes {
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+  }
 }
 
 /* about us unique features*/
@@ -3141,6 +3286,14 @@ input {
   justify-content: center;
   margin-top: 20px;
 }
+
+/* mobile responsive */
+@media(max-width:425px){
+  .about-us-advertising-services{
+    flex-direction: column;
+  }
+}
+
 
 /* about us services feature */
 .about-us-services-feature {
@@ -3268,6 +3421,24 @@ input {
   cursor: pointer;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .about-us-contact-form .chat-content,
+  .about-us-contact-form .chat-content img {
+    width: 100%;
+  }
+  .about-us-chat-form{
+    width: 100%;
+    padding: 10px 0 0 15px;
+  }
+  .about-us-chat-form form .name_phone {
+    flex-direction: column;
+  }
+  .about-us-chat-form form .name_phone .phone input{
+    margin-left: 0 !important;
+  }
+}
+
 /* service page */
 
 /* service-home */
@@ -3291,6 +3462,20 @@ input {
 .service-home .home-right img {
   width: 100%;
   height: 100%;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .service-home {
+    flex-direction: column;
+  }
+  .service-home .home-left{
+    width: 100%;
+  }
+  .service-home .home-left h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
 
 /* service counter */
@@ -3338,6 +3523,13 @@ input {
   line-height: 27px;
   color: rgba(0, 0, 0, 1);
   margin-top: 15px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .service-mobile-app-development {
+    grid-template-columns: 100%;
+  }
 }
 
 /* service advertising agency */
@@ -3427,6 +3619,14 @@ input {
   padding: 0 20px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .service-box-wrapper .service-cards .service-card {
+    width: 100%;
+  }
+}
+
+
 /* service salefore app develoment */
 .service-saleforce-application {
   padding: 50px 7% 30px 7%;
@@ -3452,6 +3652,16 @@ input {
   line-height: 27px;
   color: rgba(0, 0, 0, 1);
   margin-top: 15px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .service-saleforce-application {
+    grid-template-columns: 100%;
+  }
+  .service-saleforce-application .saleforce-application-right img{
+    width: 100%;
+  }
 }
 
 /* cloud services */
