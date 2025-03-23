@@ -1415,7 +1415,7 @@ a {
 }
 
 .testimonial-slider h2 {
-  text-align: left;
+  text-align: center;
   font-weight: 400;
   font-size: 22px;
   line-height: 39px;
@@ -1501,25 +1501,34 @@ a {
     padding: 0;
   }
   .testimonial-slider .swiper-slide .client-details {
-    width: 250px;
+    width: 240px;
   }
   .testimonial-slider .swiper-slide:nth-child(2) .client-details{
-    width: 300px !important;
+    width: 280px !important;
+  }
+  .testimonial-slider .swiper-slide:nth-child(3) .client-details{
+    width: 235px !important;
   }
   .testimonial-slider .swiper-slide .client-details img {
-    width: 70px;
+    width: 65px;
   }
   .testimonial-slider .swiper-slide .client-details .testimonial-two img,
   .testimonial-slider .swiper-slide .client-details .testimonial-three img {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
   }
   .testimonial-slider .swiper-slide .client-details h2 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .swiper-slide p {
     font-size: 15px;
     line-height: 25px;
+  }
+  .testimonial-slider .swiper-button-prev, .testimonial-slider .swiper-button-next {
+    width: 15px;
+  }
+  .swiper-button-next:after,.swiper-button-prev:after {
+    font-size: 30px !important;
   }
 }
 
@@ -1968,9 +1977,6 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  .form-control {
-    width: 300px !important;
   }
   .header_nevigation_div {
     margin-left: 0 !important;
@@ -3431,8 +3437,16 @@ input {
     width: 100%;
     padding: 10px 0 0 15px;
   }
+  .about-us-chat-form form {
+    width: 100%;
+  }
   .about-us-chat-form form .name_phone {
     flex-direction: column;
+  }
+  .about-us-chat-form form .name_phone .name,
+  .about-us-chat-form form .name_phone .phone,
+  .about-us-chat-form form .email{
+    width: 98% !important;
   }
   .about-us-chat-form form .name_phone .phone input{
     margin-left: 0 !important;
@@ -3475,6 +3489,9 @@ input {
   .service-home .home-left h2 {
     font-size: 25px;
     line-height: 30px;
+  }
+  .service-home .home-right{
+    margin-top: 20px;
   }
 }
 
@@ -3692,6 +3709,25 @@ input {
   color: rgba(0, 0, 0, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .cloud-services h4{
+    margin-top: 20px;
+  }
+  .cloud-services .our-vision,
+  .cloud-services .our-mission,
+  .cloud-services .our-values{
+    margin-top: 0;
+  }
+  .cloud-services .our-vision .our-vision-right,
+  .cloud-services .our-values .our-values-right{
+    padding-left: 0 !important;
+  }
+  .cloud-services .our-mission .our-mission-left{
+    padding-top: 0 !important;
+  }
+}
+
 /* industries */
 
 #induss {
@@ -3744,6 +3780,24 @@ input {
   width: 100%;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .indus-page{
+    flex-direction: column;
+    padding: 10px 7%;
+  }
+  .indus_right{
+    width: 100%;
+  }
+}
+
+/* for medium size devices */
+@media (max-width: 840px) {
+  .indus_left {
+    width: 100%;
+  }
+}
+
 /* all sector */
 .all-sectors {
   padding: 20px 7%;
@@ -3793,6 +3847,19 @@ input {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .all-sectors .all-sector-single-box h2{
+    padding-left: 0;
+  }
+  .all-sectors .all-sector-single-box .sector-single-box{
+    grid-template-columns: 100%;
+  }
+  .all-sectors .all-sector-single-box .sector-single-box .sector-single-box-right{
+    padding-left: 0;
+  } 
 }
 
 /* industry boxes */
@@ -3849,20 +3916,13 @@ input {
   padding: 0 20px;
 }
 
-@media (max-width: 840px) {
-  .indus-page {
-    flex-direction: column-reverse;
-    padding: 0 1%;
-    text-align: center;
-  }
-
-  .indus_left {
+/* mobile responsive */
+@media(max-width:425px){
+  .industry-box-wrapper .industry-cards .industry-card{
     width: 100%;
   }
-  .indus_right {
-    width: 50%;
-  }
 }
+
 
 /* solutions page */
 
@@ -3912,6 +3972,16 @@ input {
   width: 100%;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .solution-page{
+    flex-direction: column;
+  }
+  .solution_left,.solution_right {
+    width: 100%;
+  }
+}
+
 /* supply chain optimaization */
 .supply-chain {
   padding: 20px 7%;
@@ -3943,6 +4013,19 @@ input {
   font-size: 16px;
   line-height: 24px;
   margin-top: 20px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .supply-chain {
+    grid-template-columns: 100%;
+  }
+  .supply-chain .supply-chain-left img{
+    width: 100%;
+  }
+  .supply-chain .supply-chain-right{
+    padding-left: 0;
+  }
 }
 
 /* health care solution */
@@ -4018,6 +4101,13 @@ input {
   color: rgba(21, 20, 20, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .health-care-softwares .health-care-softwares-single-box{
+    width: 50%;
+  }
+}
+
 /* medical app developers */
 .medical-app-developers {
   padding: 30px 7%;
@@ -4036,6 +4126,16 @@ input {
   font-size: 16px;
   line-height: 24px;
   color: rgba(21, 20, 20, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .medical-app-developers {
+    grid-template-columns: 100%;
+  }
+  .medical-app-developers .medical-app-right img{
+    width: 100%;
+  }
 }
 
 /* software for remote patient monitoring */
@@ -4096,6 +4196,16 @@ input {
   margin-top: 20px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .medical-software-benefits .medical-software-benefits-box {
+    grid-template-columns: 100%;
+  }
+  .medical-software-benefits .medical-software-benefits-box .box-left img{
+    width: 100%;
+  }
+}
+
 /* industries we have worked */
 .industries-we-have-worked {
   padding: 40px 7%;
@@ -4141,6 +4251,13 @@ input {
   color: rgba(0, 0, 0, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .industries-we-have-worked .industries-boxes .industry-box {
+    width: 50%;
+  }
+}
+
 /* solution data section */
 .solution-page-data {
   padding: 30px 7%;
@@ -4172,6 +4289,13 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .solution-page-data {
+    grid-template-columns: 100%;
+  }
 }
 
 /* solution page data science section */
@@ -4221,6 +4345,13 @@ input {
   align-items: center;
   justify-content: space-around;
   padding: 50px 120px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .solution-page-data-science .data-science-boxes {
+    flex-direction: column;
+  }
 }
 
 /* blog page */
