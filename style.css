@@ -5099,7 +5099,6 @@ input {
     gap: 1vmax;
     border-radius: 2vmax;
     align-items: center;
-    margin: 0 10px;
   }
 
   .serv_card_h {
@@ -5950,6 +5949,16 @@ input {
   color: rgba(255, 255, 255, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .digital-main .mobdev-page h2{
+    font-size: 30px;
+  }
+  .digital-main .mobdev-page p{
+    font-size: 17px;
+  }
+}
+
 /* digital marketing agency in india */
 .digital-marketing-agency-in-india {
   padding-top: 20px;
@@ -6044,6 +6053,16 @@ input {
   margin-top: 15px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .digital-marketing-services .commen-service-box .serv_cards_box .serv_card{
+    width: 100%;
+  }
+  .digital-marketing-services .commen-service-box .serv_cards_box .serv_card ul{
+    padding-left: 25px;
+  }
+}
+
 /* digital marketing agency in bangalore */
 .digital-marketing-agency-in-bangalore div {
   display: flex;
@@ -6080,6 +6099,23 @@ input {
   font-size: 24px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .digital-marketing-agency-in-bangalore div{
+    flex-direction: column;
+  }
+  .digital-marketing-agency-in-bangalore div p {
+    width: 100%;
+  }
+  .digital-marketing-agency-in-bangalore .digital-marketing-agency-left .digital-marketing-agency-counter{
+    margin-top: 10px;
+    flex-direction: row;
+  }
+  .digital-marketing-agency-in-bangalore .digital-marketing-agency-right{
+    width: 100% !important;
+  }
+}
+
 /* best digital marketing agency in Bangalore */
 .best-digital-marketing-agency {
   padding: 60px 7%;
@@ -6097,6 +6133,16 @@ input {
 .best-digital-marketing-agency p {
   width: 60%;
   font-weight: 400;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .best-digital-marketing-agency{
+    flex-direction: column;
+  }
+  .best-digital-marketing-agency p{
+    width: 100%;
+  }
 }
 
 /* digial marketing services provided */
@@ -6133,6 +6179,14 @@ input {
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .digital-marketing-services-provided .serv_card {
+    width: 100%;
+    border: 0 !important;
+  }
 }
 
 /* 6. data analytics page */
