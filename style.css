@@ -5690,6 +5690,19 @@ input {
     #63b2ff 98.35%
   );
 }
+.ui-uxmain .mobdev-page .mobdev_left .mobdev_left_paraone{
+  color: rgba(255, 255, 255, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .ui-uxmain .mobdev-page{
+    padding: 10px 7%;
+  }
+  .ui-uxmain .mobdev-page .mobdev_left .mobdev_left_paraone{
+    margin-top: 15px;
+  }
+}
 
 /* ui ux marketing */
 .uiux-marketing .digital-marketing-left h2 {
@@ -5776,6 +5789,14 @@ input {
   color: rgba(0, 0, 0, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .design-planning .img-wrapper{
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 /* uiux branding */
 .uiux-branding h3 {
   font-family: "Poppins", sans-serif;
@@ -5852,6 +5873,23 @@ input {
   top: -2px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .uiux-branding .our-mission .our-mission-right{
+    width: 100% !important;
+    padding-left: 0;
+  }
+  .uiux-branding .our-mission .our-mission-left{
+    width: 100% !important;
+  }
+  .uiux-branding .our-vision .our-vision-left{
+    width: 100% !important;
+  }
+  .uiux-branding .our-vision .our-vision-right{
+    width: 100%;
+  }
+}
+
 /* ui ux design firm */
 .uiux-design-firm h1 {
   display: flex;
@@ -5871,6 +5909,13 @@ input {
 }
 .uiux-design-firm img {
   border-radius: 23px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .uiux-design-firm h1 {
+    font-size: 23px;
+  }
 }
 
 /* ui ux design services */
@@ -5907,6 +5952,25 @@ input {
 }
 .uiux-design-agency .content p {
   margin-top: 10px;
+}
+
+/* ui ux testimonials */
+
+/* mobile responsive */
+@media(max-width:425px){
+  .ui_ux-testimonials .testimonial-slider .swiper-slide .client-details h2{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(1) .client-details{
+    width: 300px !important;
+  }
+  .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(2) .client-details{
+    width: 250px !important;
+  }
+  .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(3) .client-details{
+    width: 300px !important;
+  }
 }
 
 /* 4. renewal subscription */
