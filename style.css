@@ -4730,6 +4730,9 @@ input {
 
 /* mobile responsive */
 @media(max-width:425px){
+  .contact-us-contact-form {
+    padding: 10px 6%;
+  }
   .contact-us-chat-form{
     padding: 20px 0;
   }
@@ -4798,7 +4801,7 @@ input {
     flex-direction: column;
   }
   .contact-us-box .contact-us-single-box .visit-us .contact-us-profile:nth-child(2){
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 }
 
@@ -5206,6 +5209,27 @@ input {
   width: 100%;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .webdev-page{
+    flex-direction: column;
+  }
+  .webdev_left,.webdev_right{
+    width: 100%;
+  }
+  .webdev_left_paraone{
+    font-size: 30px;
+  }
+  .webdev_left h3{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .webdev_right img{
+    width: 95%;
+    margin: auto;
+  }
+}
+
 /* web-dev services */
 .web-dev-service h1 {
   text-align: left;
@@ -5218,6 +5242,20 @@ input {
 .web-dev-service .service-cards .service-card p {
   margin-top: 10px !important;
   padding: 0 !important;
+}
+
+/* mobile responsive */
+@media(max-width:375px){
+  .service-box-wrapper .service-cards .service-card h2 {
+    line-height: 20px;
+    font-size: 18px;
+  }
+}
+@media(max-width:425px){
+  .service-box-wrapper h1{
+    font-size: 25px;
+    line-height: 35px;
+  }
 }
 
 /* web application development */
@@ -5293,6 +5331,20 @@ input {
   color: rgba(55, 52, 158, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .service-mobile-app-development .app-development-right img{
+    width: 98%;
+  }
+  .webdev-website-design .landing-page-header img:nth-child(1) {
+    width: 75px;
+  }
+  .webdev-website-design .our-mission-left{
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
 /* web design technologies */
 .web-design-technologies {
   background: none !important;
@@ -5316,13 +5368,27 @@ input {
   justify-content: center;
 }
 
-/* web dev softwares */
+/* mobile responsive */
+@media(max-width:425px){
+  .web-design-technologies{
+    margin-top: 20px;
+  }
+}
+
+/* software we offer */
 .webdev-box-top {
   padding: 10px 7%;
-  justify-content: flex-start !important;
+  justify-content: flex-start;
 }
 .webdev-box-top .profile {
   margin: 30px 0 30px 16px !important;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .software-we-offer .webdev-box-top{
+    justify-content: center;
+  }
 }
 
 /* web dev testimonials */
@@ -5347,25 +5413,19 @@ input {
   margin-top: 15px;
 }
 
-@media (max-width: 840px) {
-  .webdev-page {
-    flex-direction: column-reverse;
-    padding: 0 1%;
-    text-align: center;
+/* mobile responsive */
+@media(max-width:425px){
+  .webdev-testimonials .testimonial-slider .swiper-slide:nth-child(1) .client-details {
+    width: 170px !important;
   }
-
-  .webdev_left {
-    width: 100%;
+  .webdev-testimonials .testimonial-slider .swiper-slide:nth-child(2) .client-details {
+    width: 115px !important;
   }
-  .webdev_right {
-    width: 40%;
-  }
-
-  .webdev_left_paraone {
-    font-size: 20px;
-    margin-bottom: 15px;
+  .webdev-testimonials .testimonial-slider .swiper-slide:nth-child(3) .client-details {
+    width: 160px !important;
   }
 }
+
 
 /* 2. mobile applicattion */
 #web-devv {
@@ -5413,6 +5473,19 @@ input {
 }
 .mobdev_right img {
   width: 100%;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .mobdev-page{
+    flex-direction: column;
+  }
+  .mobdev_left,.mobdev_right{
+    width: 100%;
+  }
+  .mobdev_left h2{
+    font-size: 30px;
+  }
 }
 
 /* mobile app development */
@@ -5580,22 +5653,32 @@ input {
   color: rgba(0, 0, 0, 1);
 }
 
-@media (max-width: 840px) {
-  .mobdev-page {
-    flex-direction: column-reverse;
-    padding: 0 1%;
-    text-align: center;
+/* mobile responsive */
+@media(max-width:425px){
+  .industries-we-serve .industries-boxes{
+    flex-direction: column;
+    align-items: center;
   }
-
-  .mobdev_left {
-    width: 100%;
+  .industries-we-serve .industries-boxes .single-industry-box {
+    width: 95%;
   }
-  .mobdev_right {
-    width: 50%;
+  .mobapp-testimonials .testimonial-slider h2{
+    text-align: left;
   }
-  .mobdev_left_paraone {
-    font-size: 20px;
-    margin-bottom: 15px;
+  .mobapp-testimonials .testimonial-slider .swiper-slide:nth-child(1) .client-details {
+    width: 200px !important;
+  }
+  .mobapp-testimonials .testimonial-slider .swiper-slide:nth-child(2) .client-details {
+    width: 325px !important;
+  }
+  .mobapp-testimonials .testimonial-slider .swiper-slide:nth-child(3) .client-details {
+    width: 235px !important;
+  }
+  .mobapp-testimonials .testimonial-slider .swiper-slide:nth-child(4) .client-details {
+    width: 275px !important;
+  }
+  .mobapp-testimonials .testimonial-slider .swiper-slide:nth-child(5) .client-details {
+    width: 235px !important;
   }
 }
 
