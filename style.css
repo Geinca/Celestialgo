@@ -6305,6 +6305,13 @@ input {
   padding: 0 7%;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .content-writing-agency-service-container .box-top {
+    padding: 0;
+  }
+}
+
 /* content writing agency counter */
 .content-writing-agency-counter {
   flex-direction: column;
@@ -6323,6 +6330,13 @@ input {
   padding: 30px 7%;
   justify-content: space-between;
   background: rgba(249, 249, 249, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .content-writing-agency-counter .counter-boxes{
+    flex-direction: column;
+  }
 }
 
 /* content writing solution */
@@ -6380,6 +6394,19 @@ input {
   margin-right: 10px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .content-writing-solution .service-solutions {
+    flex-direction: column;
+  }
+  .content-writing-solution .service-solutions .data-right img{
+    width: 100%;
+  }
+  .content-writing-solution .service-solutions .data-left{
+    width: 100% !important;
+  }
+}
+
 /* B2B product and service solution */
 .B2B-product-service-solution {
   padding: 30px 7%;
@@ -6416,6 +6443,16 @@ input {
   height: 7px;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .B2B-product-service-solution ul {
+    flex-direction: column;
+  }
+  .B2B-product-service-solution ul li{
+    width: 100%;
+  }
 }
 
 /* content writing industries */
@@ -6502,6 +6539,13 @@ input {
   color: rgba(0, 0, 0, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .area-of-speacialization .commen-service-box .serv_card{
+    width: 100%;
+  }
+}
+
 /* our goal */
 .our-goal {
   padding: 10px 7% 50px 7%;
@@ -6538,6 +6582,14 @@ input {
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
   margin-top: 10px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .consulting-main .mobdev_left,
+  .consulting-main .mobdev_right{
+    width: 100%;
+  }
 }
 
 /* grow your business */
@@ -6610,6 +6662,17 @@ input {
   font-weight: 400;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .our-approach .approach-boxes {
+    flex-direction: column;
+  }
+  .our-approach .approach-boxes .approach-box-wrapper,
+  .our-approach .approach-boxes .approach-box-wrapper .approach-box {
+    width: 100%;
+  }
+}
+
 /* advising consultants benefit */
 .advising-consultants-benefit {
   padding: 30px 7%;
@@ -6638,6 +6701,16 @@ input {
   font-weight: 400;
   font-size: 18px;
   margin-top: 10px;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .advising-consultants-benefit .benefits-boxes {
+    flex-direction: column;
+  }
+  .advising-consultants-benefit .benefits-boxes .benefits-box:nth-child(2) img{
+    width: 100%;
+  }
 }
 
 /* our business consulting */
@@ -6703,6 +6776,16 @@ input {
   color: rgba(0, 0, 0, 1);
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .key-offerings .key-offerings-boxes{
+    flex-direction: column;
+  }
+  .key-offerings .key-offerings-boxes .key-offering-single-box{
+    width: 100%;
+  }
+}
+
 /* business excellence */
 .business-excellence {
   margin-top: 25px;
@@ -6743,6 +6826,13 @@ input {
   .business-excellence-single-box
   h3 {
   text-align: center;
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .business-excellence .business-excellence-boxes{
+    flex-direction: column;
+  }
 }
 
 /* management consulting firms */
