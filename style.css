@@ -730,6 +730,10 @@ a {
   align-items: center;
   justify-content: center;
   height: 150px;
+  width: 50%;
+}
+.clients .client-box .client-single-box img{
+  width: 70%;
 }
 
 /* responsiveness */
