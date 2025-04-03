@@ -91,6 +91,7 @@
                                 <a href="./services.html" data-toggle="sub-menu">Services <i class="plus"></i></a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a
+<<<<<<< HEAD
                                         href="website-development-company-in-bangalore.html">Website Development</a></li>
                                         <li class="menu-item"><a href="mobile-application-development-company-in-bangalore.html">Mobile App Development</a></li>
                                         <li class="menu-item"><a href="ui-ux-designer.html">UI/UX Design</a></li>
@@ -99,6 +100,25 @@
                                         <li class="menu-item"><a href="consulting-and-advisory.html">Consulting and Advisory</a></li>
                                         <li class="menu-item"><a href="data-analytics.html">Data Analytics And Reporting</a></li>
                                         <li class="menu-item"><a href="mobile-application-development-company-in-bangalore.html">Salesforce Application Development</a></li>
+=======
+                                            href="website-development-company-in-bangalore.html">Website Development</a>
+                                    </li>
+                                    <li class="menu-item"><a
+                                            href="mobile-application-development-company-in-bangalore.html">Mobile App
+                                            Development</a></li>
+                                    <li class="menu-item"><a href="ui-ux-designer.html">UI/UX Design</a></li>
+                                    <li class="menu-item"><a href="content-writing-agency.html">Content and
+                                            Copywriting</a></li>
+                                    <li class="menu-item"><a href="digital-marketing-company-in-bangalore.html">Digital
+                                            Marketing</a></li>
+                                    <li class="menu-item"><a href="consulting-and-advisory.html">Consulting and
+                                            Advisory</a></li>
+                                    <li class="menu-item"><a href="data-analytics.html">Data Analytics And Reporting</a>
+                                    </li>
+                                    <li class="menu-item"><a
+                                            href="mobile-application-development-company-in-bangalore.html">Salesforce
+                                            Application Development</a></li>
+>>>>>>> 45cfaaa (using a different system and started work)
                                 </ul>
                             </li>
 
@@ -353,31 +373,29 @@
 
     <!-- clients -->
     <div class="clients">
-        <h2>Some of our existing clients we have worked</h2>
-        <div class="client-box">
-            <div class="client-single-box">
-                <img src="./images/clients/image 80.png" alt="Caneaeby Me">
+        <h2>Some of our existing clients we have worked with</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide client-single-box">
+                    <img src="./images/clients/image 80.png" alt="Caneaeby Me">
+                </div>
+                <div class="swiper-slide client-single-box">
+                    <img src="./images/clients/ehkhhfoh.png" alt="EGW Groups">
+                </div>
+                <div class="swiper-slide client-single-box">
+                    <img src="./images/clients/client-3.png" alt="Mathegtutor">
+                </div>
+                <div class="swiper-slide client-single-box">
+                    <img src="./images/clients/royal oks logo.png" alt="Royal Oks">
+                </div>
+                <div class="swiper-slide client-single-box">
+                    <img src="./images/clients/marketing_adda.png" alt="Marketing Adda">
+                </div>
+                <div class="swiper-slide client-single-box">
+                    <img src="./images/clients/UK2.png" alt="UK People Choice">
+                </div>
             </div>
-
-            <div class="client-single-box">
-                <img src="./images/clients/ehkhhfoh.png" alt="EGW Groups">
-            </div>
-
-            <div class="client-single-box">
-                <img src="./images/clients/client-3.png" alt="Mathegtutor">
-            </div>
-
-            <div class="client-single-box">
-                <img src="./images/clients/royal oks logo.png" alt="Royal Oks">
-            </div>
-
-            <div class="client-single-box">
-                <img src="./images/clients/marketing_adda.png" alt="marketing adda">
-            </div>
-
-            <div class="client-single-box">
-                <img src="./images/clients/UK2.png" alt="uk people choice">
-            </div>
+            
         </div>
     </div>
 
@@ -687,8 +705,15 @@
                             </div>
                             <h2 style="color: rgba(97, 107, 202, 1);">Anandhan, Head of Marketing</h2>
                         </div>
+<<<<<<< HEAD
                         <p>I availed digital marketing services from CelestialGo<span class="hide-on-mobile"><br /></span> and was impressed by their
                             professionalism, expertise,<span class="hide-on-mobile"><br /></span> and results-driven approach. Highly recommended!
+=======
+                        <p>I availed digital marketing services from CelestialGo<span
+                                class="hide-on-mobile"><br /></span> and was impressed by their
+                            professionalism, expertise,<span class="hide-on-mobile"><br /></span> and results-driven
+                            approach. Highly recommended!
+>>>>>>> 45cfaaa (using a different system and started work)
                         </p>
                     </div>
 
@@ -983,7 +1008,12 @@
                         <li><a href="ui-ux-designer.html">UI/UX Design</a></li>
                         <li><a href="content-writing-agency.html">Digital Marketing</a></li>
                         <li><a href="consulting-and-advisory.html">Consulting and Advisory</a></li>
+<<<<<<< HEAD
                         <li><a href="./salesforce-application-development.html">Salesforce Application Development</a></li>
+=======
+                        <li><a href="./salesforce-application-development.html">Salesforce Application Development</a>
+                        </li>
+>>>>>>> 45cfaaa (using a different system and started work)
                     </ul>
                 </div>
 
@@ -1034,7 +1064,6 @@
 
     <script>
 
-       
         (() => {
 
             const openNavMenu = document.querySelector(".open-nav-menu"),
@@ -1164,12 +1193,16 @@
 
         // counter
 
+        let clients = document.getElementById("clients");
+        let clientSatisfaction = document.getElementById("clientSatisfaction");
+        let projects = document.getElementById("projects");
+
         function updateCount(maxCount, element) {
             let count = 1; // Independent count for each element
             function increment() {
                 if (count <= maxCount) {
-                    element.innerHTML = `${count++} +`;
-                    setTimeout(increment, 800); // Updates every 100ms (adjust speed if needed)
+                    element.innerHTML = element.id === "clientSatisfaction" ? `${count++} %` : `${count++} +`;
+                    setTimeout(increment, 100); // Updates every 800ms (adjust speed if needed)
                 }
             }
             increment(); // Start the counting
@@ -1183,9 +1216,9 @@
 
             if (scrollPosition >= targetPosition && !triggered) {
                 triggered = true; // Ensure it runs only once
-                updateCount(20, document.getElementById("clients"));
-                updateCount(20, document.getElementById("clientSatisfaction"));
-                updateCount(10, document.getElementById("projects"));
+                updateCount(100, clients);
+                updateCount(98, clientSatisfaction);
+                updateCount(100, projects);
             }
         });
 

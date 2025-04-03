@@ -706,7 +706,8 @@ a {
 /* clients */
 .clients {
   background: #f3f3f3;
-  padding: 50px 10%;
+  padding: 30px 10%;
+  text-align: center;
 }
 
 .clients h2 {
@@ -717,23 +718,20 @@ a {
   font-size: 31px;
 }
 
-.clients .client-box {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 8%;
+.clients .swiper{
+  width: 100%;
+  margin: auto;
 }
 
-.clients .client-box .client-single-box {
+.clients .swiper-slide {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 150px;
-  width: 50%;
+  align-items: center;
 }
-.clients .client-box .client-single-box img{
-  width: 70%;
+.clients .client-single-box img{
+  max-width: 250px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* responsiveness */
@@ -844,7 +842,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-top: 20px;
   padding: 10px 0;
   cursor: pointer;
 }
