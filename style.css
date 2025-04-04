@@ -1811,9 +1811,11 @@ a {
   font-family: "Righteous", sans-serif;
 }
 .chat-content h5 {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 500;
   color: white;
+  text-transform: uppercase;
+  margin-top: 15px;
 }
 
 .chat-form h3 {
@@ -1894,10 +1896,13 @@ textarea::placeholder {
   padding-bottom: 40px;
 }
 
-/* responsiveness */
+/* responsiveness for mobile devices */
 @media (max-width: 425px) {
   .contact-form .contact-form-wrapper {
     flex-direction: column;
+  }
+  .chat-content h5 {
+    font-size: 13px;
   }
 }
 
@@ -1913,7 +1918,6 @@ textarea::placeholder {
     text-align: center;
   }
   .chat-content h5 {
-    font-size: 15px;
     text-align: center;
   }
   .chat-form h3 {

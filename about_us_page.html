@@ -563,7 +563,7 @@
                       <span style="display: block;"><a
                               href="mailto:info@celestialgo.com">info@celestialgo.com</a></span>
                       <span style="display: block; margin-top: 15px;">Phone: <a
-                              href="tel:+9174111042723">+91-74111042723</a></span>
+                              href="tel:+917411042723">+91-7411042723</a></span>
                   </div>
               </div>
 
@@ -667,16 +667,14 @@
 
       })();
 
-   </script>
-
-   <script>
+   
       // counter
 
       function updateCount(maxCount, element) {
          let count = 1; // Independent count for each element
          function increment() {
             if (count <= maxCount) {
-               element.innerHTML = `${count++} ${element == document.getElementById("clients") ? "%" : "+"}`;
+               element.innerHTML = `${count++} +`;
                setTimeout(increment, 100); // Updates every 100ms (adjust speed if needed)
             }
          }
@@ -691,9 +689,9 @@
 
          if (scrollPosition >= targetPosition && !triggered) {
             triggered = true; // Ensure it runs only once
-            updateCount(20, document.getElementById("clients"));
-            updateCount(200, document.getElementById("hoursWorked"));
-            updateCount(10, document.getElementById("projects"));
+            updateCount(100, document.getElementById("clients"));
+            updateCount(400, document.getElementById("hoursWorked"));
+            updateCount(200, document.getElementById("projects"));
          }
       });
 
