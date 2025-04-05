@@ -4377,8 +4377,24 @@ input {
   .solution-page-data-science .data-science-boxes {
     flex-direction: column;
   }
+  .solution-page-data-science .data-science-boxes .arrow-mark{
+    transform: rotate(90deg);
+    margin: 50px 0;
+  }
   .solution-page-data-science .data-science-boxes .data-science-single-box:nth-child(3){
-    margin: 40px 0;
+    margin: 20px 0;
+  }
+  .solution-page-data-science .data-science-boxes .data-science-single-box:nth-child(3) img:nth-child(1){
+    left: -20px !important;
+  }
+  .solution-page-data-science .data-science-boxes .data-science-single-box:nth-child(3) img:nth-child(2){
+    margin-left: -10px;
+  }
+  .solution-page-data-management .data-science-boxes .arrow-mark{
+    margin: 60px 0;
+  }
+  .solution-page-data-management .data-science-boxes .data-science-single-box:nth-child(3) img:nth-child(1){
+    left: -30px !important;
   }
 }
 
@@ -5368,6 +5384,12 @@ input {
   }
 }
 
+@media(max-width:375px){
+  .webdev-website-design h1 {
+    font-size: 22px;
+  }
+}
+
 /* web design technologies */
 .web-design-technologies {
   background: none !important;
@@ -5446,6 +5468,11 @@ input {
   }
   .webdev-testimonials .testimonial-slider .swiper-slide:nth-child(3) .client-details {
     width: 160px !important;
+  }
+  .webdev-testimonials .testimonial-slider .swiper-container .swiper-pagination,
+  .webdev-testimonials .testimonial-slider .swiper-container .swiper-button-prev,
+  .webdev-testimonials .testimonial-slider .swiper-container .swiper-button-next{
+    display: none;
   }
 }
 
@@ -5526,6 +5553,13 @@ input {
   margin-top: 25px;
 }
 
+/* mobile responsive */
+@media(max-width:375px){
+  .mobile-app-development h2 {
+    font-size: 24px;
+  }
+}
+
 /* mobile app development services we offer */
 .mobile-app-development-services {
   background: linear-gradient(
@@ -5579,6 +5613,13 @@ input {
   top: 6px;
 }
 
+/* mobile responsive */
+@media(max-width:425px){
+  .mobile-app-development-services .our-mission-content .landing-page-header {
+    align-items: flex-start;
+  }
+}
+
 /* agile approach to develop applications */
 .approach-to-develop-applications h2 {
   font-family: "Righteous", sans-serif;
@@ -5630,6 +5671,41 @@ input {
   font-weight: 600;
   font-size: 18px;
   color: rgba(21, 20, 20, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px){
+  .approach-to-develop-applications .data-science-boxes .development{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .approach-to-develop-applications .data-science-boxes .testing{
+    margin-top: 15px;
+  }
+  .approach-to-develop-applications
+  .data-science-boxes
+  .deployment .img-wrapper img:nth-child(2){
+    left: 20px !important;
+  }
+  .approach-to-develop-applications .data-science-boxes .monitoring{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .approach-to-develop-applications .data-science-boxes .monitoring .img-wrapper{
+    padding-left: 0 !important;
+  }
+  .approach-to-develop-applications .data-science-boxes .monitoring .img-wrapper img:nth-child(2){
+    left: 10px !important;
+  }
+}
+
+@media(max-width:375px){
+  .approach-to-develop-applications h2 {
+    font-size: 25px;
+    line-height: 33px;
+  }
 }
 
 /* industries we serve */
@@ -5686,7 +5762,7 @@ input {
     width: 95%;
   }
   .mobapp-testimonials .testimonial-slider h2{
-    text-align: left;
+    text-align: center;
   }
   .mobapp-testimonials .testimonial-slider .swiper-slide:nth-child(1) .client-details {
     width: 200px !important;
@@ -5983,7 +6059,7 @@ input {
 /* mobile responsive */
 @media(max-width:425px){
   .ui_ux-testimonials .testimonial-slider .swiper-slide .client-details h2{
-    text-align: left;
+    text-align: center;
     padding-left: 10px;
   }
   .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(1) .client-details{
