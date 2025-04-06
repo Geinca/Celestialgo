@@ -6989,3 +6989,194 @@ input {
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
 }
+
+/* 9. Salesforce application development page */
+
+/* salesforce main */
+.salesforce-main{
+  background: linear-gradient(283.59deg, #092637 -3.36%, #011A49 -3.35%, #5FA0FF 99.38%);
+}
+.salesforce-main .header {
+    background: none;
+}
+.salesforce-home {
+  padding: 40px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.salesforce-home .home_left {
+  width: 50%;
+}
+.salesforce-home .home_left h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+.salesforce-home .home_right {
+  width: 40%;
+}
+.salesforce-home .home_right img {
+  width: 100%;
+}
+
+/* mobile responsive */
+@media(max-width:578px){
+  .salesforce-home {
+    flex-direction: column;
+  }
+  .salesforce-home .home_left,
+  .salesforce-home .home_right {
+    width: 100%;
+  }
+}
+@media(min-width:425px) and (max-width:578px){
+  .salesforce-home .home_left h2 {
+    font-size: 30px;
+  }
+}
+@media(min-width:375px) and (max-width:425px){
+  .salesforce-home .home_left h2 {
+    font-size: 27px;
+  }
+}
+@media(min-width:320px) and (max-width:375px){
+  .salesforce-home .home_left h2 {
+    font-size: 23px;
+  }
+}
+
+/* how celestialgo helps companies */
+.how-celestialgo-helps-companies{
+  padding: 50px 12% 40px 12%;
+  text-align: center;
+  background: rgba(255, 242, 224, 1);
+}
+.how-celestialgo-helps-companies p{
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* mobile responsiveness */
+@media(max-width:425px){
+  .how-celestialgo-helps-companies p{
+    font-size: 15px;
+  }
+}
+
+/* why salesforce */
+.why-salesforce{
+  padding: 30px 7%;
+}
+.why-salesforce h2{
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(55, 52, 158, 1);
+  text-align: center;
+}
+.why-salesforce .saleforce-boxes{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.why-salesforce .saleforce-boxes .salesforce-single-box{
+  width: 25%;
+}
+.why-salesforce .saleforce-boxes .salesforce-single-box img{
+  width: 100%;
+  height: 300px;
+}
+.why-salesforce .saleforce-boxes .salesforce-single-box .salesforce-single-box-content{
+  margin-top: 20px;
+}
+.why-salesforce .saleforce-boxes .salesforce-single-box .salesforce-single-box-content h3{
+  font-weight: 600;
+  color: rgba(55, 52, 158, 1);
+}
+.why-salesforce .saleforce-boxes .salesforce-single-box .salesforce-single-box-content p{
+  font-weight: 400;
+  color: rgba(48, 47, 47, 1);
+  margin-top: 20px;
+}
+.why-salesforce .saleforce-boxes .salesforce-single-box .salesforce-single-box-content h3,
+.why-salesforce .saleforce-boxes .salesforce-single-box .salesforce-single-box-content p{
+  font-family: "Poppins",sans-serif;
+  font-size: 18px;
+}
+
+/* mobile responsiveness */
+@media(max-width:578px){
+  .why-salesforce .saleforce-boxes{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .why-salesforce .saleforce-boxes .salesforce-single-box{
+    width: 95%;
+    margin-top: 20px;
+  }
+}
+@media(max-width:425px){
+  .why-salesforce h2{
+    font-size: 25px;
+  }
+}
+
+/* salesforce app development consulting */
+.saleforce-app-development-consulting{
+  padding: 50px 7%;
+  display: flex;
+  margin-top: 20px;
+}
+.saleforce-app-development-consulting .saleforce-app-development-consulting-left,
+.saleforce-app-development-consulting .saleforce-app-development-consulting-right{
+  width: 50%;
+}
+.saleforce-app-development-consulting .saleforce-app-development-consulting-left h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  color: rgba(55, 52, 158, 1);
+}
+.saleforce-app-development-consulting .saleforce-app-development-consulting-left p{
+  margin-top: 20px;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(48, 47, 47, 1);
+}
+.saleforce-app-development-consulting .saleforce-app-development-consulting-right{
+  text-align: center;
+}
+
+/* mobile responsiveness */
+@media(max-width:578px){
+  .saleforce-app-development-consulting{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .saleforce-app-development-consulting .saleforce-app-development-consulting-left,
+  .saleforce-app-development-consulting .saleforce-app-development-consulting-right,
+  .saleforce-app-development-consulting .saleforce-app-development-consulting-right img{
+    width: 100%;
+  }
+}
+@media(max-width:425px){
+  .saleforce-app-development-consulting .saleforce-app-development-consulting-left h2{
+    font-size: 30px;
+  }
+}
+@media(min-width:375px) and (max-width:425px){
+  .saleforce-app-development-consulting .saleforce-app-development-consulting-left h2{
+    font-size: 27px;
+  }
+}
+@media(min-width:320px) and (max-width:375px){
+  .saleforce-app-development-consulting .saleforce-app-development-consulting-left h2{
+    font-size: 24px;
+  }
+}
