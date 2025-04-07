@@ -7180,3 +7180,59 @@ input {
     font-size: 24px;
   }
 }
+
+/* products and services offered by salesforce ecosystem */
+.salesforce-products-services {
+  padding: 30px 7% 10px 7%;
+  background: linear-gradient(358.34deg, #4054B9 -89.03%, #3ED9BD 98.5%);
+}
+.salesforce-products-services h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.salesforce-products-services .serv_cards_box {
+  gap: 10px;
+  row-gap: 45px;
+  justify-content: space-between;
+  margin: 4vmax 0;
+}
+.salesforce-products-services .serv_card {
+  width: 23%;
+  padding: 25px 15px;
+  align-items: flex-start;
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 12px;
+}
+.salesforce-products-services .serv_card .img-wrapper {
+  width: 45px;
+  height: 50px;
+}
+.salesforce-products-services .serv_card .img-wrapper img {
+  width: 100%;
+}
+.salesforce-products-services .serv_card .heading-wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+}
+.salesforce-products-services .serv_card .heading-wrapper p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(85, 79, 79, 1);
+}
+
+/* mobile responsive */
+@media(max-width:578px){
+  .salesforce-products-services h2 {
+    font-size: 30px;
+  }
+  .salesforce-products-services .serv_card {
+    width: 100%;
+  }
+}
