@@ -5377,7 +5377,7 @@ input {
   font-weight: 400;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 578px) {
   .serv_cards_box {
     display: flex;
     flex-wrap: wrap;
@@ -8495,4 +8495,402 @@ input {
   .salesforce-contact-heading form {
     margin-top: 10px;
   }
+}
+
+/* 10. Data-analytics page  */
+
+/* data analytics home */
+.datamain-page {
+  background: linear-gradient(280.73deg, #1ABCFE 32.69%, #2E7ECD 98.11%);
+}
+
+.datamain-page .header {
+  background: none;
+}
+
+.data-analytics-home {
+  padding: 40px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.data-analytics-home .home_left {
+  width: 60%;
+}
+
+.data-analytics-home .home_left h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.data-analytics-home .home_left p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+}
+
+.data-analytics-home .home_right {
+  width: 30%;
+}
+
+.data-analytics-home .home_right img {
+  width: 100%;
+}
+
+/* mobile responsive */
+@media(max-width:578px) {
+  .data-analytics-home {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .data-analytics-home .home_left,
+  .data-analytics-home .home_right {
+    width: 100%;
+  }
+
+}
+
+@media(min-width:375px) and (max-width:425px) {
+  .data-analytics-home .home_left h2 {
+    font-size: 32px;
+  }
+
+}
+
+@media(max-width:320px) {
+  .data-analytics-home .home_left h2 {
+    font-size: 27px;
+  }
+
+  .data-analytics-home .home_left p {
+    font-size: 15px;
+  }
+}
+
+/* business analytics */
+.business-analytics,
+.data-visualization {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 7%;
+  margin-top: 50px;
+}
+
+.business-analytics .analytics-left,
+.data-visualization .visualization-right {
+  width: 30%;
+}
+
+.business-analytics .analytics-left img,
+.data-visualization .visualization-right img {
+  width: 100%;
+}
+
+.business-analytics .analytics-right,
+.data-visualization .visualization-left {
+  width: 60%;
+}
+
+.business-analytics .analytics-right h2,
+.data-visualization .visualization-left h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(55, 52, 158, 1);
+}
+
+.business-analytics .analytics-right p,
+.data-visualization .visualization-left p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(21, 20, 20, 1);
+  margin-top: 10px;
+}
+
+/* mobile responsive */
+@media(max-width:578px) {
+
+  .business-analytics,
+  .data-visualization {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+    padding: 40px 7%;
+  }
+
+  .business-analytics .analytics-left,
+  .data-visualization .visualization-left,
+  .business-analytics .analytics-right,
+  .data-visualization .visualization-right {
+    width: 100%;
+  }
+
+  .business-analytics .analytics-left img,
+  .data-visualization .visualization-right img {
+    padding-top: 15px;
+  }
+
+}
+
+@media(min-width:375px) and (max-width:425px) {
+
+  .business-analytics .analytics-right h2,
+  .data-visualization .visualization-left h2 {
+    font-size: 25px;
+  }
+
+  .business-analytics .analytics-right p,
+  .data-visualization .visualization-left p {
+    font-size: 18px;
+  }
+
+}
+
+@media(max-width:320px) {
+
+  .business-analytics .analytics-right h2,
+  .data-visualization .visualization-left h2 {
+    font-size: 20px;
+  }
+
+  .business-analytics .analytics-right p,
+  .data-visualization .visualization-left p {
+    font-size: 16px;
+  }
+}
+
+/* salesforce area of specialization */
+.data-analytics-area-of-specialization h2{
+  text-align: center;
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: rgba(48, 47, 47, 1);
+}
+
+.data-analytics-area-of-specialization .serv_card h2{
+  text-align: left;
+}
+
+.data-analytics-area-of-specialization .serv_card p{
+  height: 150px;
+  padding: 10px;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* mobile responsive */
+@media(max-width:578px) {
+
+  .data-analytics-area-of-specialization .commen-service-box .serv_cards_box .serv_card{
+    height: 270px;
+    width: 100%;
+  }
+
+}
+
+@media(max-width:425px) {
+
+  .data-analytics-area-of-specialization h2{
+    font-size: 30px;
+  }
+
+  .data-analytics-area-of-specialization .serv_card{
+    height: 290px;
+  }
+
+  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2{
+    font-size: 17px !important;
+  }
+
+}
+
+@media(max-width:375px) {
+
+  .data-analytics-area-of-specialization h2{
+    font-size: 28px;
+  }
+
+  .data-analytics-area-of-specialization .serv_card{
+    height: 340px;
+    padding: 20px 0;
+  }
+
+  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2{
+    font-size: 16px !important;
+  }
+
+}
+
+@media(max-width:320px) {
+
+  .data-analytics-area-of-specialization h2{
+    font-size: 23px;
+  }
+
+  .data-analytics-area-of-specialization .serv_card{
+    height: 350px;
+  }
+
+  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2{
+    font-size: 15px !important;
+  }
+
+}
+
+/* useful info */
+.useful-info{
+  padding: 30px 7%;
+}
+
+.useful-info h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(48, 47, 47, 1);
+}
+
+.useful-info h4{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(85, 79, 79, 1);
+  margin: 20px 0;
+}
+
+.useful-info ul{
+  position: relative;
+}
+
+.useful-info ul li{
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.useful-info ul li::before{
+  content: " ";
+  position: absolute;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(55,52,158,1);
+}
+
+/* mobile responsive */
+@media(max-width:425px) {
+
+  .useful-info h2{
+    font-size: 27px;
+  }
+
+  .useful-info h4{
+    font-size: 19px;
+    margin: 15px 0;
+  }
+
+  .useful-info ul li{
+    font-size: 15px;
+  }
+
+}
+
+@media(max-width:375px) {
+
+  .useful-info h2{
+    font-size: 25px;
+  }
+
+  .useful-info h4{
+    font-size: 17px;
+  }
+
+}
+
+@media(max-width:320px) {
+
+  .useful-info h2{
+    font-size: 20px;
+  }
+
+  .useful-info h4{
+    font-size: 16px;
+  }
+
+}
+
+/* meet celestialgo */
+.meet-celestialgo{
+  padding: 30px 7%;
+  background: linear-gradient(180deg, #FBDEB9 0%, rgba(255, 244, 244, 0.51) 100%);
+  text-align: center;
+}
+
+.meet-celestialgo h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(55, 52, 158, 1);
+}
+
+.meet-celestialgo h4{
+  margin-top: 30px;
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(85, 79, 79, 1);
+}
+
+/* mobile responsive */
+@media(max-width:425px) {
+
+  .meet-celestialgo h2{
+    font-size: 33px;
+  }
+
+  .meet-celestialgo h4{
+    font-size: 20px;
+  }
+
+}
+
+@media(max-width:375px) {
+
+  .meet-celestialgo h2{
+    font-size: 28px;
+  }
+
+  .meet-celestialgo h4{
+    font-size: 19px;
+  }
+
+}
+
+@media(max-width:320px) {
+
+  .meet-celestialgo h2{
+    font-size: 25px;
+  }
+
+  .meet-celestialgo h4{
+    font-size: 16px;
+  }
+
 }
