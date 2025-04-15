@@ -8669,22 +8669,22 @@ input {
 }
 
 /* salesforce area of specialization */
-.data-analytics-area-of-specialization h2{
+.data-analytics-area-of-specialization h2 {
   text-align: center;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 32px;
   color: rgba(48, 47, 47, 1);
 }
 
-.data-analytics-area-of-specialization .serv_card h2{
+.data-analytics-area-of-specialization .serv_card h2 {
   text-align: left;
 }
 
-.data-analytics-area-of-specialization .serv_card p{
+.data-analytics-area-of-specialization .serv_card p {
   height: 150px;
   padding: 10px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: rgba(0, 0, 0, 1);
@@ -8693,7 +8693,7 @@ input {
 /* mobile responsive */
 @media(max-width:578px) {
 
-  .data-analytics-area-of-specialization .commen-service-box .serv_cards_box .serv_card{
+  .data-analytics-area-of-specialization .commen-service-box .serv_cards_box .serv_card {
     height: 270px;
     width: 100%;
   }
@@ -8702,15 +8702,15 @@ input {
 
 @media(max-width:425px) {
 
-  .data-analytics-area-of-specialization h2{
+  .data-analytics-area-of-specialization h2 {
     font-size: 30px;
   }
 
-  .data-analytics-area-of-specialization .serv_card{
+  .data-analytics-area-of-specialization .serv_card {
     height: 290px;
   }
 
-  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2{
+  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2 {
     font-size: 17px !important;
   }
 
@@ -8718,16 +8718,16 @@ input {
 
 @media(max-width:375px) {
 
-  .data-analytics-area-of-specialization h2{
+  .data-analytics-area-of-specialization h2 {
     font-size: 28px;
   }
 
-  .data-analytics-area-of-specialization .serv_card{
+  .data-analytics-area-of-specialization .serv_card {
     height: 340px;
     padding: 20px 0;
   }
 
-  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2{
+  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2 {
     font-size: 16px !important;
   }
 
@@ -8735,78 +8735,78 @@ input {
 
 @media(max-width:320px) {
 
-  .data-analytics-area-of-specialization h2{
+  .data-analytics-area-of-specialization h2 {
     font-size: 23px;
   }
 
-  .data-analytics-area-of-specialization .serv_card{
+  .data-analytics-area-of-specialization .serv_card {
     height: 350px;
   }
 
-  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2{
+  .data-analytics-area-of-specialization .serv_card .heading-wrapper h2 {
     font-size: 15px !important;
   }
 
 }
 
 /* useful info */
-.useful-info{
+.useful-info {
   padding: 30px 7%;
 }
 
-.useful-info h2{
-  font-family: "Righteous",sans-serif;
+.useful-info h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 36px;
   color: rgba(48, 47, 47, 1);
 }
 
-.useful-info h4{
-  font-family: "Righteous",sans-serif;
+.useful-info h4 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: rgba(85, 79, 79, 1);
   margin: 20px 0;
 }
 
-.useful-info ul{
+.useful-info ul {
   position: relative;
 }
 
-.useful-info ul li{
+.useful-info ul li {
   margin: 15px 0;
   display: flex;
   align-items: center;
   padding-left: 20px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
 }
 
-.useful-info ul li::before{
+.useful-info ul li::before {
   content: " ";
   position: absolute;
   left: 0;
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: rgba(55,52,158,1);
+  background: rgba(55, 52, 158, 1);
 }
 
 /* mobile responsive */
 @media(max-width:425px) {
 
-  .useful-info h2{
+  .useful-info h2 {
     font-size: 27px;
   }
 
-  .useful-info h4{
+  .useful-info h4 {
     font-size: 19px;
     margin: 15px 0;
   }
 
-  .useful-info ul li{
+  .useful-info ul li {
     font-size: 15px;
   }
 
@@ -8814,11 +8814,11 @@ input {
 
 @media(max-width:375px) {
 
-  .useful-info h2{
+  .useful-info h2 {
     font-size: 25px;
   }
 
-  .useful-info h4{
+  .useful-info h4 {
     font-size: 17px;
   }
 
@@ -8826,33 +8826,33 @@ input {
 
 @media(max-width:320px) {
 
-  .useful-info h2{
+  .useful-info h2 {
     font-size: 20px;
   }
 
-  .useful-info h4{
+  .useful-info h4 {
     font-size: 16px;
   }
 
 }
 
 /* meet celestialgo */
-.meet-celestialgo{
+.meet-celestialgo {
   padding: 30px 7%;
   background: linear-gradient(180deg, #FBDEB9 0%, rgba(255, 244, 244, 0.51) 100%);
   text-align: center;
 }
 
-.meet-celestialgo h2{
-  font-family: "Righteous",sans-serif;
+.meet-celestialgo h2 {
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 36px;
   color: rgba(55, 52, 158, 1);
 }
 
-.meet-celestialgo h4{
+.meet-celestialgo h4 {
   margin-top: 30px;
-  font-family: "Righteous",sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: rgba(85, 79, 79, 1);
@@ -8861,11 +8861,11 @@ input {
 /* mobile responsive */
 @media(max-width:425px) {
 
-  .meet-celestialgo h2{
+  .meet-celestialgo h2 {
     font-size: 33px;
   }
 
-  .meet-celestialgo h4{
+  .meet-celestialgo h4 {
     font-size: 20px;
   }
 
@@ -8873,11 +8873,11 @@ input {
 
 @media(max-width:375px) {
 
-  .meet-celestialgo h2{
+  .meet-celestialgo h2 {
     font-size: 28px;
   }
 
-  .meet-celestialgo h4{
+  .meet-celestialgo h4 {
     font-size: 19px;
   }
 
@@ -8885,12 +8885,161 @@ input {
 
 @media(max-width:320px) {
 
-  .meet-celestialgo h2{
+  .meet-celestialgo h2 {
     font-size: 25px;
   }
 
-  .meet-celestialgo h4{
+  .meet-celestialgo h4 {
     font-size: 16px;
+  }
+
+}
+
+/* indepth analysis */
+.indepth-analysis {
+  padding: 30px 7%;
+}
+
+.indepth-analysis h2 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(55, 52, 158, 1);
+}
+
+.indepth-analysis .depth-analysis-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.indepth-analysis .depth-analysis-wrapper .depth-analysis-right {
+  width: 50%;
+}
+
+.indepth-analysis .depth-analysis-wrapper .depth-analysis-right p,
+.indepth-analysis .determine-ROI p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.indepth-analysis .determine-ROI {
+  width: 60%;
+}
+
+.indepth-analysis .determine-ROI h3 {
+  margin: 20px 0;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(85, 79, 79, 1);
+}
+
+/* mobile responsive */
+@media(max-width:578px) {
+
+  .indepth-analysis .depth-analysis-wrapper {
+    flex-direction: column;
+  }
+
+  .indepth-analysis .depth-analysis-wrapper .depth-analysis-left,
+  .indepth-analysis .depth-analysis-wrapper .depth-analysis-right,
+  .indepth-analysis .depth-analysis-wrapper .depth-analysis-left img,
+  .indepth-analysis .determine-ROI {
+    width: 100%;
+  }
+
+}
+
+@media(max-width:320px) {
+
+  .indepth-analysis h2 {
+    font-size: 25px;
+  }
+
+  .indepth-analysis .depth-analysis-wrapper .depth-analysis-right p,
+  .indepth-analysis .determine-ROI p {
+    font-size: 18px;
+  }
+
+  .indepth-analysis .determine-ROI h3{
+    font-size: 20px;
+  }
+
+}
+
+/* all systems */
+.all-systems{
+  padding: 30px 7%;
+  background-color: rgba(255, 248, 248, 1);
+}
+
+.all-systems h2{
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.all-systems .system-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 25px;
+  margin-top: 50px;
+}
+
+.all-systems .system-wrapper .img-wrapper{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* mobile responsive */
+@media(max-width:578px) {
+
+  .all-systems .system-wrapper .img-wrapper{
+    width: 50%;
+  }
+
+}
+
+/* produce forecasts */
+.produce-forecasts{
+  padding: 40px 7%;
+  text-align: center;
+}
+
+.produce-forecasts h2{
+  font-family: "Righteous",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(55, 52, 158, 1);
+}
+
+.produce-forecasts p{
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  margin: 10px 0;
+}
+
+.produce-forecasts img{
+  margin-top: 30px;
+}
+
+/* mobile responsive */
+@media(max-width:578px) {
+
+  .produce-forecasts img{
+    width: 100%;
   }
 
 }
