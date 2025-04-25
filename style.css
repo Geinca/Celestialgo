@@ -6447,7 +6447,7 @@ input {
       #0c1c6f 98.35%);
 }
 
-/* 5. digital page */
+/* 5. digital marketing page */
 
 .digital-main {
   background: linear-gradient(283.59deg,
@@ -6722,6 +6722,38 @@ input {
   .digital-marketing-services-provided .serv_card {
     width: 100%;
     border: 0 !important;
+  }
+}
+
+/* digital marketing testimonials */
+.digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-details{
+  width: 385px;
+  justify-content: flex-start;
+}
+
+.digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-feedback{
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+.digital-marketing-testimonial .testimonial-slider h2{
+  text-align: left !important;
+}
+
+/* mobile responsive */
+@media(max-width:425px) {
+  .digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-details{
+    width: 385px;
+    justify-content: flex-start;
+  }
+  
+  .digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-feedback{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .digital-marketing-testimonial .testimonial-slider h2{
+    text-align: center !important;
   }
 }
 
