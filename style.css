@@ -2779,14 +2779,10 @@ input {
   margin-top: 8px;
 }
 
-.icons {
-  display: flex;
-  align-items: center;
-}
-
 .icons a {
   text-decoration: none;
   align-items: center;
+  display: flex;
 }
 
 .icons-name {
