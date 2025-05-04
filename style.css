@@ -6414,29 +6414,24 @@ input {
 }
 
 /* ui ux testimonials */
-.ui_ux-testimonials .testimonial-slider h3{
-  font-family: "Righteous", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  color: rgba(55, 52, 158, 1);
-  text-transform: capitalize;
-}
-.ui_ux-testimonials .testimonial-slider .swiper-slide .client-details {
-  width: 430px;
-  justify-content: flex-start;
-}
-
-.ui_ux-testimonials .testimonial-slider .swiper-slide .client-details h2 {
-  text-align: left;
-}
 
 /* mobile responsive */
-@media(max-width:578px){
-  .ui_ux-testimonials .testimonial-slider .swiper-slide .client-details {
-    width: 100% !important;
-  }
+@media(max-width:425px) {
   .ui_ux-testimonials .testimonial-slider .swiper-slide .client-details h2 {
     text-align: center;
+    padding-left: 10px;
+  }
+
+  .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(1) .client-details {
+    width: 300px !important;
+  }
+
+  .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(2) .client-details {
+    width: 250px !important;
+  }
+
+  .ui_ux-testimonials .testimonial-slider .swiper-slide:nth-child(3) .client-details {
+    width: 300px !important;
   }
 }
 
@@ -6742,17 +6737,19 @@ input {
 }
 
 /* mobile responsive */
-@media(max-width:578px){
+@media(max-width:425px) {
   .digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-details{
-    width: 100% !important;
+    width: 385px;
     justify-content: flex-start;
   }
-  .digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-details h2{
-    text-align: center !important;
-  }
-
+  
   .digital-marketing-testimonial .testimonial-slider .swiper-wrapper .swiper-slide .client-feedback{
+    text-align: center;
     width: 100%;
+    margin: 0 auto;
+  }
+  .digital-marketing-testimonial .testimonial-slider h2{
+    text-align: center !important;
   }
 }
 
